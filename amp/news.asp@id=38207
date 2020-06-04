@@ -1,0 +1,404 @@
+
+<!doctype html>
+<html amp lang="it">
+<HEAD><TITLE>
+App Immuni: tutti i nodi da sciogliere
+</TITLE>
+<link rel="canonical" href="https://www.studiocataldi.it/articoli/38207-app-immuni-tutti-i-nodi-da-sciogliere.asp" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<script async custom-element="amp-sticky-ad" src="https://cdn.ampproject.org/v0/amp-sticky-ad-1.0.js"></script>
+<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-latest.js"></script>
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+<script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
+<META CONTENT="no-cache">
+<style amp-custom>
+  body{font-family:verdana;font-size:16px}
+  div.main_content{margin-left: 10px; margin-right: 10px;}
+  .ampad, .ampimg { text-align: center;}
+  .numeri{border:solid 1px silver;background:#fff;text-decoration:none;padding:2px 2px;}
+  .h1titolo{margin-bottom:8px;font-size:22px;font-weight: bold;}
+  .divtitolo{margin-bottom:2px;font-family:verdana;font-size:16px}
+  .foto{margin-right:10px;align:left}
+  .newsarticle{font-family:verdana;font-size:16px;color:#464c4e}
+  .newslink{color:#006699;}
+  .desc_img{float:left;border:0}
+  .topbarra {background-color:#3B889F;margin-bottom:6px}
+  .footer {background-color:#242424;min-height:100px}
+  .numeri{border:solid 1px silver;background:#fff;text-decoration:none;padding:2px 2px;}
+  .h1titolo{margin-bottom:8px;font-size:22px;font-weight: bold;}
+  .divtitolo{margin-bottom:2px;font-family:verdana;font-size:16px}
+  .foto{margin-right:10px;align:left}
+  .newsarticle{font-family:verdana;font-size:16px;color:#464c4e}
+  .newslink{color:#006699;}
+  .desc_img{float:left;border:0}
+  .topbarra {background-color:#3B889F;margin-bottom:6px}
+  amp-ad[type="teads"] { margin: auto }
+  .clear{clear:both;}
+  
+.evobrid-container{position:fixed;bottom:0;left:50%;transform:translateX(-50%);height:155px;width:256px;z-index: 1;}
+.evobrid-container .evobrid-iframe-container .video{position:absolute;bottom:0;height:155px;left:0;right:0}
+	
+header ol,ul{padding:0;margin:0}
+header ul{list-style:none}	
+a{text-decoration:none;color:#2e697a}
+header{width:100%;height:180px;text-align:center;background-color:#fff}
+.header-top-bar-container{height:46px;background-color:#1c344c}
+.header-top-bar{max-width:1248px;margin-left:auto;margin-right:auto}
+#right-header-section{position:absolute;top:0;right:0}
+
+.social-icons .social-icon,.social-icons-mobile .social-icon{display:block;width:30px;height:30px;background-repeat:none;outline:0}
+.social-icons-mobile{display:none; float:left}
+.header-top-bar .social-icons,.header-top-bar .social-icons-mobile{float:left;z-index:9999;background-color:#1c344c}
+.header-top-bar .social-icons li,.header-top-bar .social-icons-mobile li{float:left;margin-left:8px;padding:8px 0 8px 5px}
+.logo-new img{width:100%;max-width:300px;max-height:100px}
+#toggle-menu::before{content:'\2630'}
+#menu .main-menu{display:none}
+#tm:checked+.main-menu{display:block}
+#menu input[type=checkbox],#menu ul span.drop-icon{display:none}
+#menu .sub-menu,#menu li,#toggle-menu{border-style:solid;border-color:rgba(0,0,0,.05)}
+#menu li,#toggle-menu{border-width:0 0 1px}
+#menu .sub-menu{background-color:#1c344c;border-width:1px 1px 0;margin:0 1em}
+#menu .sub-menu li:last-child{border-width:0}
+#menu li,#toggle-menu{font-family:Verdana;font-size:28px;background-color:#1c344c;position:relative;display:block;color:#fff;text-shadow:1px 1px 0 rgba(0,0,0,.125);text-decoration:none;cursor:pointer}
+#toggle-menu{background:#1c344c;margin-bottom:-4px;width:20px}
+#menu .sub-menu{display:none}
+#menu input[type=checkbox]:checked+.sub-menu{display:block}
+#menu .sub-menu a:hover{color:#444}
+#menu li label.drop-icon,#toggle-menu .drop-icon{position:absolute;right:0;top:0;height:2px;width:30px;text-align:right;cursor:pointer}
+#menu li label.drop-icon:hover{background-color:#fff}
+#menu label.drop-icon,#toggle-menu span.drop-icon{padding:1em;font-size:1em;text-align:center;color:rgba(255,255,255,.75)}
+#menu li,#toggle-menu{z-index:999}
+#menu a{transition:all .125s ease-in-out;-webkit-transition:all .125s ease-in-out}
+#menu{background-color:#1c344c;height:46px;z-index:99999;text-align:left}
+#menu a{font-family:Verdana;font-size:18px;background-color:#1c344c;position:relative;display:block;color:#fff;text-shadow:1px 1px 0 rgba(0,0,0,.125);text-decoration:none;cursor:pointer}
+#menu a,#toggle-menu{padding:.1em .75em}
+#menu a:hover{background-color:#fff;color:#1c344c}
+.scrolled-text-box{position:absolute;left:70px;width:calc(100% - 340px);color:#fff;z-index:9999999;padding:0}
+nav{position:absolute;left:0;top:0;width:100%}
+#right-header-section{z-index:999999; width:135px; float:right}
+#scrolled{z-index:999999}
+#menu ul{padding:6px 0 0 0}
+.share{box-shadow:0 0 0 2px #9fb4f2;background:linear-gradient(to bottom,#7892c2 5%,#476e9e 100%);background-color:#7892c2;border-radius:10px;border:1px solid #4e6096;display:inline-block;cursor:pointer;color:#fff;font-family:Arial;font-size:12px;padding:6px 15px;text-decoration:none;text-shadow:0 1px 0 #283966;margin-right:5px}
+.share:hover{background:linear-gradient(to bottom,#476e9e 5%,#7892c2 100%);background-color:#476e9e}
+.share:active{position:relative;top:1px}
+.scrolled-text-box{width:calc(100% - 210px);color:#fff}
+.scrolled-text-box a{color:#fff}
+.scrolled{height:50px;overflow:hidden;position:relative}
+.scrolled p{position:absolute;width:5000px;height:100%;margin:0;line-height:50px;text-align:center;-moz-transform:translateX(100%);-webkit-transform:translateX(100%);transform:translateX(100%);-moz-animation:scrolled 60s linear infinite;-webkit-animation:scrolled 60s linear infinite;animation:scrolled 60s linear infinite}
+@-moz-keyframes scrolled{0%{-moz-transform:translateX(100%)}
+100%{-moz-transform:translateX(-100%)}
+}
+@-webkit-keyframes scrolled{0%{-webkit-transform:translateX(100%)}
+100%{-webkit-transform:translateX(-100%)}
+}
+@keyframes scrolled{0%{-moz-transform:translateX(10%);-webkit-transform:translateX(10%);transform:translateX(10%)}
+100%{-moz-transform:translateX(-100%);-webkit-transform:translateX(-100%);transform:translateX(-100%)}
+}  
+.main_content ol,.main_content ul{padding:10px;font-size:18px;font-family:Verdana;line-height:1.5}
+.main_content ul{list-style-type:disc}
+.main_content ul{margin:10px}
+.main_content ol{margin:10px 10px 10px 20px}
+.main_content ul li{display:list-item;line-height:1.7em}
+.main_content ul li a{text-decoration:none}
+.search-icon{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 46px;
+    padding: 0 0 0 10px;
+    background: url(/images/icons/header_search.png) 0 0 no-repeat;
+    border: none;
+    cursor: pointer;
+    background: solid;
+    z-index: 9999;
+    background-position: 0 -46px;
+             
+             }
+</style>
+
+
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "NewsArticle",
+"mainEntityOfPage": "https://www.studiocataldi.it/articoli/38207-app-immuni-tutti-i-nodi-da-sciogliere.asp", //this is correct and dinamic
+"headline": "App Immuni: tutti i nodi da sciogliere",//make it dinamic
+"description": "L'app approntata per affrontare la Fase 2 solleva dubbi sul piano tecnico, applicativo e giuridico. Ancora troppo &amp;quot;nebuloso&amp;quot; il suo funzionamento e le modalit&#224; di trattamento dei dati personali",//make it dinamic
+"datePublished":"22/04/2020 22:00:00", //here we can insert the date of the news//
+
+
+"publisher": {
+"@type": "Organization",
+"name": "Studio Cataldi",
+"url": "https://www.studiocataldi.it",
+"logo": {
+"@type": "ImageObject",
+"url": "https://www.studiocataldi.it/images/logo40x95.png",
+"width": 95,
+"height": 40
+}
+},
+"copyrightYear": 2020, //IF POSSIBLE WE CAN INSERT DINAMICALLY THE YEAR FOR EACH NEWS
+"copyrightHolder": {
+"@type": "Organization",
+"name": "studiocataldi.it.it",
+"logo": {
+"@type": "ImageObject",
+"url": "https://www.studiocataldi.it/images/logo40x95.png",
+"width": 95,
+"height": 40
+}
+},
+"image": {
+"@type": "ImageObject",
+"url": "https://www.studiocataldi.it/images/imgnews/app-telefono-coronavirus-id38207.jpg",//make it dinamic
+"width": 400,
+"height": 300
+},
+"author": {
+"@type": "Person",
+"name": "Redazione Studio Cataldi",
+"jobTitle": "Journalist"
+}
+}
+</script>
+
+
+
+
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<!--
+
+-->
+</style>
+
+
+<META name='Keywords' CONTENT='App Immuni: tutti i nodi da sciogliere'><META name='Descriptinos' CONTENT='App Immuni: tutti i nodi da sciogliere'>
+</HEAD>
+
+
+<body>
+<amp-auto-ads type="adsense" data-ad-client="ca-pub-7966962822806303"></amp-auto-ads>
+<!-- amp sticky now in ampsticky.asp-->
+<!--include file="include/ampsticky.asp"-->
+
+<amp-analytics type="googleanalytics" id="analytics1">
+<script type="application/json">
+{
+  "vars": {
+    "account": "UA-183090-1" 
+  },
+  "triggers": {
+    "trackPageview": {  
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+}
+</script>
+</amp-analytics>
+
+<header>
+    <div class="header-top-bar-container">
+        <div class="header-top-bar">
+<div class="scrolled-text-box">
+<div class="scrolled">
+<p>
+<a target="_blank" href="https://www.studiocataldi.it/articoli/38271-separazioni-e-divorzi-online-le-linee-guida-del-cnf.asp">Separazioni e divorzi online: le linee guida del Cnf</a>&nbsp;<i>Lucia Izzo</i> - 27/04/20&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="https://www.studiocataldi.it/articoli/38285-coronavirus-inizia-la-fase-2.asp">Coronavirus: inizia la fase 2</a>&nbsp;<i> Redazione</i> - 26/04/20&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="https://www.studiocataldi.it/articoli/38134-terremoto-2016-il-sisma-dimenticato.asp">Terremoto 2016. Il sisma dimenticato</a>&nbsp;<i>Simone Vazzana</i> - 24/04/20&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="https://www.studiocataldi.it/articoli/38226-esame-avvocati-nel-mirino-delle-nazioni-unite.asp">Esame avvocati nel mirino delle Nazioni Unite</a>&nbsp;<i>Vittorio  Corasaniti</i> - 23/04/20&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="https://www.studiocataldi.it/articoli/38207-app-immuni-tutti-i-nodi-da-sciogliere.asp">App Immuni: tutti i nodi da sciogliere</a>&nbsp;<i>Lucia Izzo</i> - 22/04/20&nbsp;&nbsp;|&nbsp;&nbsp;
+</p>
+</div>
+</div> 
+
+        <div id="right-header-section">
+            <a href="https://www.studiocataldi.it/cerca/"><div class="search-icon"></div></a>
+            <ul class="social-icons clearfix">
+		        <li>
+			        <a href="https://www.studiocataldi.it/segui-studio-cataldi.asp" class="share">Seguici</a>
+		        </li>
+	        </ul>
+             <ul class="social-icons-mobile clearfix">
+		        <li>
+			        <a href="https://www.studiocataldi.it/segui-studio-cataldi.asp" class="share">Seguici</a>
+		        </li>
+	        </ul>
+             <!--form class="search" action="https://www.studiocataldi.it/cerca/risultati.asp" method="get" onsubmit="javascript:if (document.getElementById('sc').value==''){ document.location.href='https://www.studiocataldi.it/cerca/'; return false;}">
+		        <input type="text" name="sc" id="sc" placeholder="Cerca..." class="search-input hint" />
+		        <input type="submit" class="search-submit" value="" />
+	        </form-->
+         </div>
+
+
+    </div>        
+    </div>
+    <div class="logo-new"><a href="https://www.studiocataldi.it/"><amp-img src="https://www.studiocataldi.it/logo-2020-300.png" width="300px" height="80px" alt="logo studio cataldi" ></a></div>
+    <nav id="menu">
+        <label for="tm" id="toggle-menu"></label>
+        <input type="checkbox" id="tm">
+        <ul class="main-menu clearfix">
+        <li class="selected"><a href="https://www.studiocataldi.it/" title="Home">Home</a></li>
+        <li><a href="https://www.studiocataldi.it/articoli/" title="Archivio notizie giuridiche">Notizie giuridiche</a>
+        <input type="checkbox" id="sm1">
+        <ul class="sub-menu">
+        <li><a href="https://www.studiocataldi.it/articoli/">Archivio notizie giuridiche</a></li>
+        <li><a href="https://www.studiocataldi.it/argomenti/">Categorie</a></li>
+        <li><a href="https://www.studiocataldi.it/tag.asp">Tag Giuridici</a></li>
+        <!--<li><a href="https://www.studiocataldi.it/archivio-attualita/">Attualità</a></li>-->
+        <li><a href="https://www.studiocataldi.it/ultimora.asp">Ultima ora</a></li>
+        </ul>
+        </li>
+
+        <li><a href="https://www.studiocataldi.it/guide_legali/" title="Guide legali">Guide legali</a>
+        <input type="checkbox" id="sm2">
+        <ul class="sub-menu">
+        <li><a href="https://www.studiocataldi.it/guide-diritto-civile/">Guide Diritto Civile</a></li>
+        <li><a href="https://www.studiocataldi.it/guide_legali/procedura-civile/">Guide Procedura civile</a></li>                
+        <li><a href="https://www.studiocataldi.it/guide-diritto-penale/">Guide Diritto Penale</a></li>
+        <li><a href="https://www.studiocataldi.it/guide_legali/guide-procedura-penale/">Guide Procedura penale</a></li>
+        <li><a href="https://www.studiocataldi.it/guide_legali/">Tutte le guide</a></li>
+        </ul>
+        </li>
+
+        <li><a href="https://www.studiocataldi.it/formulari.asp" title="Formulari giuridici">Formulari</a>
+        <input type="checkbox" id="sm3">
+        <ul class="sub-menu">
+        <li><a href="https://www.studiocataldi.it/formulario/atti-civile/">Formulario civile</a></li>
+        <li><a href="https://www.studiocataldi.it/formulario/atti-penale/">Formulario penale</a></li>                
+        <li><a href="https://www.studiocataldi.it/formulari.asp">Indice principali formule</a></li>
+        </ul>
+        </li>
+
+        <li><a href="https://www.studiocataldi.it/risorse.asp" title="Risorse giuridiche">Risorse</a>
+        <input type="checkbox" id="sm4">
+        <ul class="sub-menu">
+        <li><a href="https://www.studiocataldi.it/calcolo-assegno-mantenimento/">Calcolo mantenimento</a></li>
+        <li><a href="https://www.studiocataldi.it/interessi-e-rivalutazione-monetaria/">Interessi e Rivalutazione</a></li>
+        <li><a href="https://www.studiocataldi.it/nota-civile-2014/tribunale.asp" >Nota Spese Avvocati</a></li>
+        <li><a href="https://www.studiocataldi.it/calcolo-danno-biologico/">Calcolo danno biologico</a></li>
+        <li><a href="https://www.studiocataldi.it/calcolo-codice-fiscale.asp">Calcolo codice fiscale</a></li> 
+        <li><a href="https://www.studiocataldi.it/risorse.asp">Tutte le risorse</a></li>    
+        </ul>
+        </li>
+ 
+        <li><a href="https://www.studiocataldi.it/normativa/raccolta_normativa.asp" title="Codici e leggi">Codici e leggi</a>
+        <input type="checkbox" id="sm5">
+        <ul class="sub-menu">
+        <li><a href="https://www.studiocataldi.it/codicecivile/">Codice civile</a></li>
+        <li><a href="https://www.studiocataldi.it/codicepenale/">Codice Penale</a></li>
+        <li><a href="https://www.studiocataldi.it/codiceproceduracivile/codiceproceduracivile.asp">Codice procedura civile</a></li>
+        <li><a href="https://www.studiocataldi.it/codiceprocedurapenale/codiceprocedurapenale.asp">Codice procedura penale</a></li>
+        <li><a href="https://www.studiocataldi.it/normativa/codicedellastrada/">Codice della Strada</a></li>
+        <li><a href="https://www.studiocataldi.it/normativa/raccolta_normativa.asp">Tutta la raccolta normativa</a></li>
+        </ul>
+        </li>
+
+        <li><a href="https://www.studiocataldi.it/giurisprudenza.asp" title="Sentenze della Cassazione">Sentenze Cassazione</a></li>            
+        <!--include file="include-evidenza-2020.asp"-->
+        </ul>
+
+        </nav>    
+				
+</header>
+
+      
+
+<!-- inizio notizia singola e apertura tabella *** -->
+<div class="main_content">
+<h1 class="h1titolo">App Immuni: tutti i nodi da sciogliere</h1>
+<div class="divtitolo">
+<i>L'app approntata per affrontare la Fase 2 solleva dubbi sul piano tecnico, applicativo e giuridico. Ancora troppo &quot;nebuloso&quot; il suo funzionamento e le modalit&#224; di trattamento dei dati personali</i>
+</div>
+
+<!-- promo deleted now it is in ampad.asp--->
+<div class="ampad">
+<!-- amp-x-belowtitle -->
+<amp-ad
+     layout="fixed"
+     width="300"
+     height="250"
+     type="adsense"
+     data-ad-client="ca-pub-7966962822806303"
+     data-ad-slot="5138899317">
+</amp-ad>
+</div>
+<div>
+<amp-img class="ampimg foto" src="https://www.studiocataldi.it/images/imgnews/app-telefono-coronavirus-id38207.jpg" alt="11" width="700" height="450" layout="responsive"></amp-img> 
+</div>
+
+<br/>
+<br />
+<!-- articlefirst, teads and inarticle -->
+<div><b>di Lucia Izzo</b> - &#200; emersa in questi giorni l'opzione, che ha assunto ormai maggior concretezza, che per affrontare la "Fase 2" legata all'emergenza Coronavirus l'Italia possa farsi "aiutare" da un'applicazione di tracciamento da scaricare su dispositivi mobili. </div><p><div class="ampad"><amp-ad width="300" height="250" type="adsense" data-ad-client="ca-pub-7966962822806303" data-ad-slot="5138899317"></amp-ad></div></p><div><div>"Immuni" &#232; il nome del progetto della software house milanese Bending Spoons che ha gi&#224; ottenuto l'ok del Commissario straordinario per l'emergenza sanitaria, Domenico Arcuri, il quale ha apposto la sua firma in calce all'ordinanza (n. 10 del 16 aprile 2020) volta a disporre la stipula del contratto di <b>cessione gratuita della licenza d'uso</b> sul software. </div><div>La societ&#224;, infatti, avrebbe scelto per spirito di solidariet&#224; di concedere la licenza d'uso aperta, gratuita, perpetua e irrevocabile del codice sorgente e di tutte le componenti dell'applicazione, impegnandosi, sempre gratuitamente e pro bono, a completare gli sviluppi software necessari per la messa in esercizio del sistema nazionale di contact tracing digitale. </div><div>Tuttavia, la soluzione sulla quale sta lavorando l'Esecutivo, per&#242;, lascia aperti diversi margini di rilevanza pratica, tecnica e anche giuridica, che rischiano di condizionarne il risultato. </div><div><a id="par0"></a><ul><li><a href="#par1">Come funzioner&#224; Immuni?</a></li><li><a href="#par2">Conte: "Tracciamento su base volontaria, senza limitazioni per chi non scarica l'app"</a></li><li><a href="#par3">Immuni sotto la lente del Copasir</a></li><li><a href="#par4">Le precisazioni del Ministero dell'innovazione</a></li><li><a href="#par5">Immuni: i dubbi tecnici e applicativi</a></li><li><a href="#par6">Immuni e tutela della privacy</a></li><li><a href="#par7">EDPB: "Nessun obbligo di utilizzo dell'app"</a></li></ul><h2><a id="par1"></a>Come funzioner&#224; Immuni?</h2><div>[<a href="#par0">Torna su</a>]</div></div><div>L'app di tracciamento &#232; stata selezionata dal gruppo di lavoro istituito dal Ministro per l'Innovazione Tecnologica e la Digitalizzazione in accordo con il Ministero della Salute al fine di valutare e proporre soluzioni tecnologiche basate sull'analisi dei dati e affrontare l'emergenza sanitaria, sociale e economica legata alla diffusione del virus COVID-19 in Italia. </div><p><div class="ampad"><amp-ad width="300" height="250" type="adsense" data-ad-client="ca-pub-7966962822806303" data-ad-slot="5138899317"></amp-ad></div></p><div>L'app dovrebbe comporsi di due parti. La prima sarebbe rappresentata da un sistema di tracciamento dei contatti che, sfruttando la tecnologia Bluetooth, consente di rilevare la vicinanza di un altro smartphone entro un metro. In tal modo, l'app permette di ripercorrere a ritroso tutti gli incontri di una persona che dovesse risultare positiva al Coronavirus e si potrebbe prontamente agire per rintracciare e isolare i potenziali contagiati. Ci&#242; in quanto l'app conserva una lista dei codici identificativi anonimi di tutti i dispositivi con cui si &#232; stati vicini.</div><div><br></div><div>Leggi anche <a href="https://www.studiocataldi.it/articoli/38140-coronavirus-si-chiama-immuni-la-nuova-app-di-tracciamento.asp" target="_blank">Coronavirus: si chiama Immuni la nuova app di tracciamento</a></div><div><br></div><div>Inoltre, Immuni presenterebbe anche un "<b>diario clinico</b>" nel quale sono "annotate" tutte le informazioni rilevanti relative al singolo utente (tra cui sesso, et&#224;, malattie pregresse, farmaci assunti) da aggiornare ogni giorno con eventuali sintomatologie e cambiamenti dello stato di salute.</div><h2><a id="par2"></a>Conte: "Tracciamento su base volontaria, senza limitazioni per chi non scarica l'app"</h2><div>[<a href="#par0">Torna su</a>]</div><div>L'idea del commissario Arcuri &#232; quella di far partire una <b>sperimentazione in alcune regioni pilota</b> e poi di estenderne l'uso ad un'area pi&#249; vasta. Affinch&#233; funzioni si confida, per&#242;, in una massiccia adesione, poich&#233; soltanto se fosse scaricata dal 60% degli italiani (secondo le stime) vi sarebbero le garanzie di efficacia sperate. </div><p><div class="ampad"><amp-ad width="300" height="250" type="adsense" data-ad-client="ca-pub-7966962822806303" data-ad-slot="5138899317"></amp-ad></div></p><div>Scaricare l'app per&#242; non sar&#224; obbligatorio, potendo il download avvenire solo su base volontaria, ma per garantirne l'efficacia si &#232; ipotizzato che il Governo stia valutando l'ipotesi di limitare gli spostamenti per coloro che non dovessero provvedervi. </div><div>In realt&#224;, sciogliendo i dubbi in argomento, durante l'informativa in Parlamento del 21 aprile, il premier Conte ha confermato che l'utilizzo dell'app di tracciamento, ritenuta necessaria "per evitare la diffusione del virus", sar&#224; <b>"</b><b>su base volontaria e non ci saranno limitazioni per chi non la scarica</b>". </div><div><h2><a id="par3"></a>Immuni sotto la lente del Copasir</h2><div>[<a href="#par0">Torna su</a>]</div></div><div><div>Dell'app Immuni, intanto, se ne sta preoccupando anche il Copasir, il Comitato parlamentare per la sicurezza della Repubblica (COPASIR). Per avere maggiori informazioni, il presidente Raffaele Volpi &#232; pronto a convocare in audizione il commissario straordinario Arcuri. </div><div>In dettaglio, il Comitato vorrebbe approfondire sia il funzionamento dell'architettura societaria dell'azienda titolare del progetto, ma anche le "forme scelte" per l'affidamento e "la conseguente gestione dell'applicazione". In realt&#224;, nei giorni scorsi, la messa in chiaro del codice era gi&#224; stata richiesta da pi&#249; fronti per esigenze di trasparenza. </div><div>Sia Antonio Zennaro (M5S) che Enrico Borghi (Pd), componenti del Comitato, hanno chiesto di inserire nella prossima riunione un ordine del giorno per "approfondire gli aspetti dell'uso dell'app legato alla sicurezza nazionale" affinch&#233; la stessa applicazione sia valutata "<b>sotto il profilo del suo impatto sul sistema complessivo delle libert&#224;, delle garanzie e della certezza</b>".</div><p><div class="ampad"><amp-ad width="300" height="250" type="adsense" data-ad-client="ca-pub-7966962822806303" data-ad-slot="5138899317"></amp-ad></div></p><h2><a id="par4"></a>Le precisazioni del Ministero dell'innovazione</h2><div>[<a href="#par0">Torna su</a>]</div><div><div>Il ministero per l'Innovazione ha provato a fare chiarezza sul percorso compiuto finora sull'applicazione per contrastare la diffusione del virus. Una nota sul sito istituzionale descrive il processo a partire dalla nascita della task force sino alla valutazione delle tecnologie. </div><div>Tra i criteri di valutazione adottati dal Ministero emerge quello relativo all'affidamento della gestione dell'intero sistema integrato di contact tracing a <b>uno o pi&#249; soggetti pubblici </b>e di lasciare il suo codice aperto (open source) e suscettibile di revisione da qualunque soggetto indipendente voglia studiarlo. </div><div>Nella nota si legge a chiare lettere che "il codice sorgente del sistema di contact tracing sar&#224; rilasciato con <b>licenza Open Source</b> MPL 2.0 e quindi come software libero e aperto" e che "l'applicazione non dovr&#224; accedere alla rubrica dei contatti del proprio telefono, non chieder&#224; nemmeno il numero e non mander&#224; SMS per notificare chi &#232; a rischio". </div><div><div>L'applicazione, spiega il Ministero, <b>non conserver&#224; i dati relativi alla geolocalizzazione </b>degli utenti, ma registrer&#224; esclusivamente i contatti pseudonimizzati di prossimit&#224; rilevati mediante la tecnologia bluetooth low energy. </div></div><div>Inoltre, si punta a rendere i dati trattati ai fini dell'esercizio del sistema "sufficientemente anonimi da impedire l'identificazione dell'interessato" e lasciare che la decisione di usare la soluzione tecnologica sia liberamente assunta dai singoli cittadini. </div><p><div class="ampad"><amp-ad width="300" height="250" type="adsense" data-ad-client="ca-pub-7966962822806303" data-ad-slot="5138899317"></amp-ad></div></p><div>Il funzionamento dell'app potr&#224; cessare non appena terminer&#224; la fase di emergenza, con cancellazione di tutti i dati generati durante il suo funzionamento. In pratica, "raggiunta la finalit&#224; perseguita, tutti i dati ovunque e in qualunque forma conservati, con l'eccezione di dati aggregati e pienamente anonimi a fini di ricerca o statistici".</div></div><h2><a id="par5"></a>Immuni: i dubbi tecnici e applicativi</h2><div>[<a href="#par0">Torna su</a>]</div></div></div><div>Quanto compiuto finora, in attesa dei passi ulteriori nel percorso istituzionale necessario, non ha mancato di sollevare molteplici dubbi, anche sotto la spinta di una lettera aperta con cui oltre 300 ricercatori di tutto il mondo hanno puntato il dito sul <b>pericolo della sorveglianza di massa</b> di simili app di tracciamento e raccolta dati centralizzata che diverse nazioni stanno valutando di utilizzare. </div><div><div>"Siamo preoccupati che alcune soluzioni (...) si traducano in sistemi che consentirebbero una sorveglianza senza precedenti della societ&#224;", scrivono i ricercatori chiedendo che siano fornite garanzia di rispetto della privacy. </div><p><div class="ampad"><amp-ad width="300" height="250" type="adsense" data-ad-client="ca-pub-7966962822806303" data-ad-slot="5138899317"></amp-ad></div></p><div>Finora, gli aspetti nebulosi sono diversi, poich&#233; sono state fornite<b> poche garanzie e informazioni </b>su come funzioner&#224; l'app e quali tipi di dati verranno trattati, nonch&#233; anche in relazione alla loro conservazione. Inoltre, le decisioni sono state prese senza investire il Parlamento, con atti sottratti al suo controllo e a quello della collettivit&#224;. Per ovviare a questa carenza il Governo potrebbe decidere di seguire la strada della decretazione d'urgenza. </div></div><div>La <b>volontariet&#224; dell'adesione</b> &#232; sicuramente uno dei maggiori interrogativi. Appare difficile, infatti, che simili app di tracciamento, se lasciate alla libera scelta dei cittadini, riescano a raggiungere un download capillare (almeno del 60% secondo le stime) indispensabile per garantirne il funzionamento e il raggiungimento degli obiettivi prefissati. </div><div><div>Ancora, <b>presupporre che tutti abbiano sempre il telefono addosso</b> &#232; un ulteriore elemento di fragilit&#224; inerente le soluzioni fondate sull'acquisizione di dati via smartphone. Infatti, se ci&#242; &#232; quantomai assodato per i pi&#249; giovani, ci&#242; non avviene per gli anziani che, tra l'altro, sono tra le fasce della popolazione pi&#249; vulnerabili al virus e che dovrebbero invece essere i primi a essere contattati in caso di rischi di contagio per essere curati con la massima tempestivit&#224;.</div></div><h2><a id="par6"></a>Immuni e tutela della privacy</h2><div>[<a href="#par0">Torna su</a>]</div><div><div>Tra le maggiori problematiche a livello giuridico, in particolare, emerge quella relativa alla tutela della privacy in quanto l'applicazione porter&#224; al trattamento di dati sensibili degli utenti e a una loro profilazione, anche qualora ci&#242; avvenga in maniera anonimizzata. </div><p><div class="ampad"><amp-ad width="300" height="250" type="adsense" data-ad-client="ca-pub-7966962822806303" data-ad-slot="5138899317"></amp-ad></div></p><div>Da pi&#249; fronti, e in particolare dalle forze politiche dell'opposizione, i dubbi inerenti il rispetto della privacy hanno portato a richiedere con forza che la tracciabilit&#224; via app sia <b>regolata da una legge ad hoc</b>, non ritenendosi all'uopo sufficienti e garantisti gli atti amministrativi (ordinanze o dpcm) sottratti a ogni controllo parlamentare. </div><div>In un'intervista a La Stampa, il Presidente dell'authority, Antonello Soro, ha precisato che il diritto alla privacy, "anche nella sua declinazione digitale di protezione dei dati, soggiace a delle limitazioni a fronte di un interesse collettivo, a maggior ragione in questa fase drammatica. L'equilibrio tra diritti individuali e della collettivit&#224; &#232; sancito dalla Costituzione". "Per&#242; - aggiunge - le deroghe non devono diventare un punto di non ritorno". </div><div>Sempre il Garante della Privacy, in un'audizione informale, ha ritenuto l'uso di dati identificativi sull'ubicazione o sull'interazione con altri dispositivi funzionale a diversi scopi, ma, "in ogni caso, esso richiede &#8211; anche ai sensi dell'art. 15 della direttiva e-privacy &#8211; una <b>disposizione normativa sufficientemente dettagliata e contenente adeguate garanzie</b>". </div><div><div>Per garantire la reale libert&#224; (e quindi la validit&#224;) del consenso al trattamento dei dati, il tracciamento della propria posizione <b>non dovrebbe risultare in alcun modo condizionato</b>, spiega il Presidente Soro: "la volontaria attivazione di una app funzionale alla raccolta dei dati sull'interazione dei dispositivi, ben potrebbe rappresentare il presupposto di uno schema normativo fondato su esigenze di sanit&#224; pubblica, con adeguate garanzie per gli interessati (art. 9, p.2, lett.i) Reg. (Ue) 2016/679)".</div><h3>La conservazione dei dati</h3><div><div>La seconda fase del trattamento, consistente nella <b>conservazione degli stessi</b>, in vista del loro eventuale, successivo utilizzo per allertare i potenziali contagiati dovrebbe avvenire, secondo il Garante, "limitatamente ai soggetti risultati poi positivi e a coloro ai quali, con essi, siano entrati in contatto significativo, per il solo periodo di potenziale contagiosit&#224;". </div><div>"I criteri di <b>necessit&#224;, proporzionalit&#224; e minimizzazione </b>rimarcati dalla giurisprudenza europea indicano, comunque, l'esigenza di contenere tali limitazioni della privacy nella misura strettamente necessaria a perseguire fini rilevanti, con il minor sacrificio possibile per gli interessati" spiega il Presidente, e sarebbero dunque "apprezzabili quelle tecnologie che mantengono il diario dei contatti esclusivamente nella disponibilit&#224; dell'utente, sul suo dispositivo, ragionevolmente per il solo periodo massimo di potenziale incubazione" </div><div>Ad esempio, il "soggetto che risultasse positivo dovrebbe fornire l'identificativo Imei del proprio dispositivo all'ASL, che sarebbe poi tenuta a trasmetterlo al server centrale per consentirgli cos&#236; di ricostruire, tramite un calcolo algoritmico, i contatti tenuti con altre persone le quali si siano, parimenti, avvalse dell'app bluetooth". In tal modo, il tracciamento sarebbe affidato a un flusso di dati pseudonimizzati, suscettibili di reidentificazione solo in caso di rilevata positivit&#224;. </div><p><div class="ampad"><amp-ad width="300" height="250" type="adsense" data-ad-client="ca-pub-7966962822806303" data-ad-slot="5138899317"></amp-ad></div></p><div>La <b>conservazione dei dati di contatto</b>, da parte del server, dovrebbe comunque limitarsi al tempo strettamente indispensabile alla rilevazione dei potenziali contagiati. In ogni caso, Soro auspica che che la complessa filiera del contact tracing possa realizzarsi interamente in ambito pubblico. In conclusione, la chiave "&#232; nella <b>proporzionalit&#224;, lungimiranza e ragionevolezza </b>dell'intervento, oltre che naturalmente nella sua temporaneit&#224;".</div><h2><a id="par7"></a>EDPB: "Nessun obbligo di utilizzo dell'app"</h2><div>[<a href="#par0">Torna su</a>]</div></div></div><div>Anche l'European Data Protection Board (EDPB) ritiene che Il fondamento giuridico per l'utilizzo delle app possa individuarsi nella <b>promulgazione di leggi nazionali </b>che promuovano l'impiego di app su base volontaria senza alcuna penalizzazione per chi non intendesse farne uso. </div><div>"Ci&#242; significa che gli interventi legislativi in oggetto non dovrebbero essere strumentali all'imposizione di un obbligo di utilizzo, e che le persone dovrebbero essere libere di scegliere se installare o disinstallare l'app" si legge in una lettera sul Progetto di linee-guida in materia di app per il contrasto della pandemia dovuta al Covid-19. </div><div>"Alla normativa qui descritta potrebbero associarsi idonee attivit&#224; di comunicazione a livello nazionale tese a promuovere l'uso di questi strumenti", inoltre, si ritiene che le app non necessitino di geolocalizzare i singoli utenti: "'obiettivo che perseguono non &#232; seguire gli spostamenti individuali o imporre il rispetto di specifiche prescrizioni, bens&#236; individuare eventi (il contatto con soggetti positivi) che hanno natura probabilistica e che possono anche non verificarsi per la maggioranza degli utenti, soprattutto nella fase post-emergenziale. Raccogliere dati sugli spostamenti di una persona durante il funzionamento di un'app di tracciamento dei contatti configurerebbe una violazione del principio di minimizzazione dei dati, oltre a comportare gravi rischi in termini di sicurezza e privacy".</div><div>Anche il Comitato concorda pienamente con la raccomandazione di evitare l'utilizzo del sistema di emergenza una volta cessato lo stato di crisi, e in via generale di cancellare o anonimizzare i dati raccolti.</div></div>
+<!-- %=pulisci_news(stringa) % -->
+
+<i>Data: 22/04/2020 22:00:00<br>
+Autore: Lucia Izzo</i><BR>
+<br />
+
+<!-- ampad removed and now is in ampad2.asp --> 
+<!-- amp-x-belowpost -->
+<div class="ampad">
+<amp-ad
+     layout="fixed"
+     width="300"
+     height="600"
+     type="adsense"
+     data-ad-client="ca-pub-7966962822806303"
+     data-ad-slot="5138899317">
+</amp-ad>
+</div>
+
+
+<!-- fine notizia singola e tabella *** -->
+      
+
+<!--include file="include/amp-outbrain.asp"-->
+</div> 
+ 
+ <amp-iframe width="1" title="User Sync"
+	height="1"
+	sandbox="allow-scripts"
+	frameborder="0"
+	src="https://acdn.adnxs.com/prebid/amp/user-sync/load-cookie.html">
+	<amp-img layout="fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" placeholder></amp-img>
+</amp-iframe>
+
+
+
+<div id="evobrid-container-box" class="evobrid-container">
+  <div>
+    <div class="evobrid-iframe-container">
+      <amp-iframe src="https://assets.evolutionadv.it/studiocataldi_it/amp-brid.html"
+         width="1" height="1"
+         sandbox="allow-scripts allow-same-origin"
+         layout="responsive"
+         frameborder="0"
+         resizable
+         class="video">
+         <amp-img layout="fill" src="https://www.evolutionadv.it/video/amp-placeholder.jpg" placeholder></amp-img>
+         <div overflow></div>
+       </amp-iframe>
+     </div>
+  </div>
+</div>
+
+<div>
+<amp-ad width="100vw" height="320"
+     type="adsense"
+     data-ad-client="ca-pub-7966962822806303"
+     data-ad-slot="5579703275"
+     data-auto-format="mcrspv"
+     data-full-width="">
+  <div overflow=""></div>
+</amp-ad>
+</div>
+<div class="footer">
+</div>
+ 
+  
+</BODY>
+
+</HTML>

@@ -1,0 +1,404 @@
+
+<!doctype html>
+<html amp lang="it">
+<HEAD><TITLE>
+Coronavirus: inizia la fase 2
+</TITLE>
+<link rel="canonical" href="https://www.studiocataldi.it/articoli/38285-coronavirus-inizia-la-fase-2.asp" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<script async custom-element="amp-sticky-ad" src="https://cdn.ampproject.org/v0/amp-sticky-ad-1.0.js"></script>
+<script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
+<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-latest.js"></script>
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+<script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
+<META CONTENT="no-cache">
+<style amp-custom>
+  body{font-family:verdana;font-size:16px}
+  div.main_content{margin-left: 10px; margin-right: 10px;}
+  .ampad, .ampimg { text-align: center;}
+  .numeri{border:solid 1px silver;background:#fff;text-decoration:none;padding:2px 2px;}
+  .h1titolo{margin-bottom:8px;font-size:22px;font-weight: bold;}
+  .divtitolo{margin-bottom:2px;font-family:verdana;font-size:16px}
+  .foto{margin-right:10px;align:left}
+  .newsarticle{font-family:verdana;font-size:16px;color:#464c4e}
+  .newslink{color:#006699;}
+  .desc_img{float:left;border:0}
+  .topbarra {background-color:#3B889F;margin-bottom:6px}
+  .footer {background-color:#242424;min-height:100px}
+  .numeri{border:solid 1px silver;background:#fff;text-decoration:none;padding:2px 2px;}
+  .h1titolo{margin-bottom:8px;font-size:22px;font-weight: bold;}
+  .divtitolo{margin-bottom:2px;font-family:verdana;font-size:16px}
+  .foto{margin-right:10px;align:left}
+  .newsarticle{font-family:verdana;font-size:16px;color:#464c4e}
+  .newslink{color:#006699;}
+  .desc_img{float:left;border:0}
+  .topbarra {background-color:#3B889F;margin-bottom:6px}
+  amp-ad[type="teads"] { margin: auto }
+  .clear{clear:both;}
+  
+.evobrid-container{position:fixed;bottom:0;left:50%;transform:translateX(-50%);height:155px;width:256px;z-index: 1;}
+.evobrid-container .evobrid-iframe-container .video{position:absolute;bottom:0;height:155px;left:0;right:0}
+	
+header ol,ul{padding:0;margin:0}
+header ul{list-style:none}	
+a{text-decoration:none;color:#2e697a}
+header{width:100%;height:180px;text-align:center;background-color:#fff}
+.header-top-bar-container{height:46px;background-color:#1c344c}
+.header-top-bar{max-width:1248px;margin-left:auto;margin-right:auto}
+#right-header-section{position:absolute;top:0;right:0}
+
+.social-icons .social-icon,.social-icons-mobile .social-icon{display:block;width:30px;height:30px;background-repeat:none;outline:0}
+.social-icons-mobile{display:none; float:left}
+.header-top-bar .social-icons,.header-top-bar .social-icons-mobile{float:left;z-index:9999;background-color:#1c344c}
+.header-top-bar .social-icons li,.header-top-bar .social-icons-mobile li{float:left;margin-left:8px;padding:8px 0 8px 5px}
+.logo-new img{width:100%;max-width:300px;max-height:100px}
+#toggle-menu::before{content:'\2630'}
+#menu .main-menu{display:none}
+#tm:checked+.main-menu{display:block}
+#menu input[type=checkbox],#menu ul span.drop-icon{display:none}
+#menu .sub-menu,#menu li,#toggle-menu{border-style:solid;border-color:rgba(0,0,0,.05)}
+#menu li,#toggle-menu{border-width:0 0 1px}
+#menu .sub-menu{background-color:#1c344c;border-width:1px 1px 0;margin:0 1em}
+#menu .sub-menu li:last-child{border-width:0}
+#menu li,#toggle-menu{font-family:Verdana;font-size:28px;background-color:#1c344c;position:relative;display:block;color:#fff;text-shadow:1px 1px 0 rgba(0,0,0,.125);text-decoration:none;cursor:pointer}
+#toggle-menu{background:#1c344c;margin-bottom:-4px;width:20px}
+#menu .sub-menu{display:none}
+#menu input[type=checkbox]:checked+.sub-menu{display:block}
+#menu .sub-menu a:hover{color:#444}
+#menu li label.drop-icon,#toggle-menu .drop-icon{position:absolute;right:0;top:0;height:2px;width:30px;text-align:right;cursor:pointer}
+#menu li label.drop-icon:hover{background-color:#fff}
+#menu label.drop-icon,#toggle-menu span.drop-icon{padding:1em;font-size:1em;text-align:center;color:rgba(255,255,255,.75)}
+#menu li,#toggle-menu{z-index:999}
+#menu a{transition:all .125s ease-in-out;-webkit-transition:all .125s ease-in-out}
+#menu{background-color:#1c344c;height:46px;z-index:99999;text-align:left}
+#menu a{font-family:Verdana;font-size:18px;background-color:#1c344c;position:relative;display:block;color:#fff;text-shadow:1px 1px 0 rgba(0,0,0,.125);text-decoration:none;cursor:pointer}
+#menu a,#toggle-menu{padding:.1em .75em}
+#menu a:hover{background-color:#fff;color:#1c344c}
+.scrolled-text-box{position:absolute;left:70px;width:calc(100% - 340px);color:#fff;z-index:9999999;padding:0}
+nav{position:absolute;left:0;top:0;width:100%}
+#right-header-section{z-index:999999; width:135px; float:right}
+#scrolled{z-index:999999}
+#menu ul{padding:6px 0 0 0}
+.share{box-shadow:0 0 0 2px #9fb4f2;background:linear-gradient(to bottom,#7892c2 5%,#476e9e 100%);background-color:#7892c2;border-radius:10px;border:1px solid #4e6096;display:inline-block;cursor:pointer;color:#fff;font-family:Arial;font-size:12px;padding:6px 15px;text-decoration:none;text-shadow:0 1px 0 #283966;margin-right:5px}
+.share:hover{background:linear-gradient(to bottom,#476e9e 5%,#7892c2 100%);background-color:#476e9e}
+.share:active{position:relative;top:1px}
+.scrolled-text-box{width:calc(100% - 210px);color:#fff}
+.scrolled-text-box a{color:#fff}
+.scrolled{height:50px;overflow:hidden;position:relative}
+.scrolled p{position:absolute;width:5000px;height:100%;margin:0;line-height:50px;text-align:center;-moz-transform:translateX(100%);-webkit-transform:translateX(100%);transform:translateX(100%);-moz-animation:scrolled 60s linear infinite;-webkit-animation:scrolled 60s linear infinite;animation:scrolled 60s linear infinite}
+@-moz-keyframes scrolled{0%{-moz-transform:translateX(100%)}
+100%{-moz-transform:translateX(-100%)}
+}
+@-webkit-keyframes scrolled{0%{-webkit-transform:translateX(100%)}
+100%{-webkit-transform:translateX(-100%)}
+}
+@keyframes scrolled{0%{-moz-transform:translateX(10%);-webkit-transform:translateX(10%);transform:translateX(10%)}
+100%{-moz-transform:translateX(-100%);-webkit-transform:translateX(-100%);transform:translateX(-100%)}
+}  
+.main_content ol,.main_content ul{padding:10px;font-size:18px;font-family:Verdana;line-height:1.5}
+.main_content ul{list-style-type:disc}
+.main_content ul{margin:10px}
+.main_content ol{margin:10px 10px 10px 20px}
+.main_content ul li{display:list-item;line-height:1.7em}
+.main_content ul li a{text-decoration:none}
+.search-icon{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 46px;
+    padding: 0 0 0 10px;
+    background: url(/images/icons/header_search.png) 0 0 no-repeat;
+    border: none;
+    cursor: pointer;
+    background: solid;
+    z-index: 9999;
+    background-position: 0 -46px;
+             
+             }
+</style>
+
+
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@type": "NewsArticle",
+"mainEntityOfPage": "https://www.studiocataldi.it/articoli/38285-coronavirus-inizia-la-fase-2.asp", //this is correct and dinamic
+"headline": "Coronavirus: inizia la fase 2",//make it dinamic
+"description": "&amp;quot;Se ami l'Italia mantieni le distanze&amp;quot;. Questo il 'motto' della riapertura della fase 2 annunciata dal premier Conte in conferenza stampa",//make it dinamic
+"datePublished":"26/04/2020 21:03:00", //here we can insert the date of the news//
+
+
+"publisher": {
+"@type": "Organization",
+"name": "Studio Cataldi",
+"url": "https://www.studiocataldi.it",
+"logo": {
+"@type": "ImageObject",
+"url": "https://www.studiocataldi.it/images/logo40x95.png",
+"width": 95,
+"height": 40
+}
+},
+"copyrightYear": 2020, //IF POSSIBLE WE CAN INSERT DINAMICALLY THE YEAR FOR EACH NEWS
+"copyrightHolder": {
+"@type": "Organization",
+"name": "studiocataldi.it.it",
+"logo": {
+"@type": "ImageObject",
+"url": "https://www.studiocataldi.it/images/logo40x95.png",
+"width": 95,
+"height": 40
+}
+},
+"image": {
+"@type": "ImageObject",
+"url": "https://www.studiocataldi.it/images/imgnews/conte-26-4-2020-id38285.png",//make it dinamic
+"width": 400,
+"height": 300
+},
+"author": {
+"@type": "Person",
+"name": "Redazione Studio Cataldi",
+"jobTitle": "Journalist"
+}
+}
+</script>
+
+
+
+
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<!--
+
+-->
+</style>
+
+
+<META name='Keywords' CONTENT='Coronavirus: inizia la fase 2'><META name='Descriptinos' CONTENT='Coronavirus: inizia la fase 2'>
+</HEAD>
+
+
+<body>
+<amp-auto-ads type="adsense" data-ad-client="ca-pub-7966962822806303"></amp-auto-ads>
+<!-- amp sticky now in ampsticky.asp-->
+<!--include file="include/ampsticky.asp"-->
+
+<amp-analytics type="googleanalytics" id="analytics1">
+<script type="application/json">
+{
+  "vars": {
+    "account": "UA-183090-1" 
+  },
+  "triggers": {
+    "trackPageview": {  
+      "on": "visible",
+      "request": "pageview"
+    }
+  }
+}
+</script>
+</amp-analytics>
+
+<header>
+    <div class="header-top-bar-container">
+        <div class="header-top-bar">
+<div class="scrolled-text-box">
+<div class="scrolled">
+<p>
+<a target="_blank" href="https://www.studiocataldi.it/articoli/38271-separazioni-e-divorzi-online-le-linee-guida-del-cnf.asp">Separazioni e divorzi online: le linee guida del Cnf</a>&nbsp;<i>Lucia Izzo</i> - 27/04/20&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="https://www.studiocataldi.it/articoli/38285-coronavirus-inizia-la-fase-2.asp">Coronavirus: inizia la fase 2</a>&nbsp;<i> Redazione</i> - 26/04/20&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="https://www.studiocataldi.it/articoli/38134-terremoto-2016-il-sisma-dimenticato.asp">Terremoto 2016. Il sisma dimenticato</a>&nbsp;<i>Simone Vazzana</i> - 24/04/20&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="https://www.studiocataldi.it/articoli/38226-esame-avvocati-nel-mirino-delle-nazioni-unite.asp">Esame avvocati nel mirino delle Nazioni Unite</a>&nbsp;<i>Vittorio  Corasaniti</i> - 23/04/20&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="https://www.studiocataldi.it/articoli/38207-app-immuni-tutti-i-nodi-da-sciogliere.asp">App Immuni: tutti i nodi da sciogliere</a>&nbsp;<i>Lucia Izzo</i> - 22/04/20&nbsp;&nbsp;|&nbsp;&nbsp;
+</p>
+</div>
+</div> 
+
+        <div id="right-header-section">
+            <a href="https://www.studiocataldi.it/cerca/"><div class="search-icon"></div></a>
+            <ul class="social-icons clearfix">
+		        <li>
+			        <a href="https://www.studiocataldi.it/segui-studio-cataldi.asp" class="share">Seguici</a>
+		        </li>
+	        </ul>
+             <ul class="social-icons-mobile clearfix">
+		        <li>
+			        <a href="https://www.studiocataldi.it/segui-studio-cataldi.asp" class="share">Seguici</a>
+		        </li>
+	        </ul>
+             <!--form class="search" action="https://www.studiocataldi.it/cerca/risultati.asp" method="get" onsubmit="javascript:if (document.getElementById('sc').value==''){ document.location.href='https://www.studiocataldi.it/cerca/'; return false;}">
+		        <input type="text" name="sc" id="sc" placeholder="Cerca..." class="search-input hint" />
+		        <input type="submit" class="search-submit" value="" />
+	        </form-->
+         </div>
+
+
+    </div>        
+    </div>
+    <div class="logo-new"><a href="https://www.studiocataldi.it/"><amp-img src="https://www.studiocataldi.it/logo-2020-300.png" width="300px" height="80px" alt="logo studio cataldi" ></a></div>
+    <nav id="menu">
+        <label for="tm" id="toggle-menu"></label>
+        <input type="checkbox" id="tm">
+        <ul class="main-menu clearfix">
+        <li class="selected"><a href="https://www.studiocataldi.it/" title="Home">Home</a></li>
+        <li><a href="https://www.studiocataldi.it/articoli/" title="Archivio notizie giuridiche">Notizie giuridiche</a>
+        <input type="checkbox" id="sm1">
+        <ul class="sub-menu">
+        <li><a href="https://www.studiocataldi.it/articoli/">Archivio notizie giuridiche</a></li>
+        <li><a href="https://www.studiocataldi.it/argomenti/">Categorie</a></li>
+        <li><a href="https://www.studiocataldi.it/tag.asp">Tag Giuridici</a></li>
+        <!--<li><a href="https://www.studiocataldi.it/archivio-attualita/">Attualità</a></li>-->
+        <li><a href="https://www.studiocataldi.it/ultimora.asp">Ultima ora</a></li>
+        </ul>
+        </li>
+
+        <li><a href="https://www.studiocataldi.it/guide_legali/" title="Guide legali">Guide legali</a>
+        <input type="checkbox" id="sm2">
+        <ul class="sub-menu">
+        <li><a href="https://www.studiocataldi.it/guide-diritto-civile/">Guide Diritto Civile</a></li>
+        <li><a href="https://www.studiocataldi.it/guide_legali/procedura-civile/">Guide Procedura civile</a></li>                
+        <li><a href="https://www.studiocataldi.it/guide-diritto-penale/">Guide Diritto Penale</a></li>
+        <li><a href="https://www.studiocataldi.it/guide_legali/guide-procedura-penale/">Guide Procedura penale</a></li>
+        <li><a href="https://www.studiocataldi.it/guide_legali/">Tutte le guide</a></li>
+        </ul>
+        </li>
+
+        <li><a href="https://www.studiocataldi.it/formulari.asp" title="Formulari giuridici">Formulari</a>
+        <input type="checkbox" id="sm3">
+        <ul class="sub-menu">
+        <li><a href="https://www.studiocataldi.it/formulario/atti-civile/">Formulario civile</a></li>
+        <li><a href="https://www.studiocataldi.it/formulario/atti-penale/">Formulario penale</a></li>                
+        <li><a href="https://www.studiocataldi.it/formulari.asp">Indice principali formule</a></li>
+        </ul>
+        </li>
+
+        <li><a href="https://www.studiocataldi.it/risorse.asp" title="Risorse giuridiche">Risorse</a>
+        <input type="checkbox" id="sm4">
+        <ul class="sub-menu">
+        <li><a href="https://www.studiocataldi.it/calcolo-assegno-mantenimento/">Calcolo mantenimento</a></li>
+        <li><a href="https://www.studiocataldi.it/interessi-e-rivalutazione-monetaria/">Interessi e Rivalutazione</a></li>
+        <li><a href="https://www.studiocataldi.it/nota-civile-2014/tribunale.asp" >Nota Spese Avvocati</a></li>
+        <li><a href="https://www.studiocataldi.it/calcolo-danno-biologico/">Calcolo danno biologico</a></li>
+        <li><a href="https://www.studiocataldi.it/calcolo-codice-fiscale.asp">Calcolo codice fiscale</a></li> 
+        <li><a href="https://www.studiocataldi.it/risorse.asp">Tutte le risorse</a></li>    
+        </ul>
+        </li>
+ 
+        <li><a href="https://www.studiocataldi.it/normativa/raccolta_normativa.asp" title="Codici e leggi">Codici e leggi</a>
+        <input type="checkbox" id="sm5">
+        <ul class="sub-menu">
+        <li><a href="https://www.studiocataldi.it/codicecivile/">Codice civile</a></li>
+        <li><a href="https://www.studiocataldi.it/codicepenale/">Codice Penale</a></li>
+        <li><a href="https://www.studiocataldi.it/codiceproceduracivile/codiceproceduracivile.asp">Codice procedura civile</a></li>
+        <li><a href="https://www.studiocataldi.it/codiceprocedurapenale/codiceprocedurapenale.asp">Codice procedura penale</a></li>
+        <li><a href="https://www.studiocataldi.it/normativa/codicedellastrada/">Codice della Strada</a></li>
+        <li><a href="https://www.studiocataldi.it/normativa/raccolta_normativa.asp">Tutta la raccolta normativa</a></li>
+        </ul>
+        </li>
+
+        <li><a href="https://www.studiocataldi.it/giurisprudenza.asp" title="Sentenze della Cassazione">Sentenze Cassazione</a></li>            
+        <!--include file="include-evidenza-2020.asp"-->
+        </ul>
+
+        </nav>    
+				
+</header>
+
+      
+
+<!-- inizio notizia singola e apertura tabella *** -->
+<div class="main_content">
+<h1 class="h1titolo">Coronavirus: inizia la fase 2</h1>
+<div class="divtitolo">
+<i>&quot;Se ami l'Italia mantieni le distanze&quot;. Questo il 'motto' della riapertura della fase 2 annunciata dal premier Conte in conferenza stampa</i>
+</div>
+
+<!-- promo deleted now it is in ampad.asp--->
+<div class="ampad">
+<!-- amp-x-belowtitle -->
+<amp-ad
+     layout="fixed"
+     width="300"
+     height="250"
+     type="adsense"
+     data-ad-client="ca-pub-7966962822806303"
+     data-ad-slot="5138899317">
+</amp-ad>
+</div>
+<div>
+<amp-img class="ampimg foto" src="https://www.studiocataldi.it/images/imgnews/conte-26-4-2020-id38285.png" alt="11" width="700" height="450" layout="responsive"></amp-img> 
+</div>
+
+<br/>
+<br />
+<!-- articlefirst, teads and inarticle -->
+<b>di Redazione -</b> E' appena terminata la conferenza stampa del presidente del Consiglio Conte, in diretta da palazzo Chigi, vertente sul nuovo Dpcm in arrivo che deve disciplinare la fase 2. <div><a id="par0"></a><ul><li><a href="#par1">Il piano per la fase 2</a></li><li><a href="#par2">Famiglie, imprese e professionisti</a></li><li><a href="#par3">Spostamenti verso familiari</a></li><li><a href="#par4">Le tappe delle riaperture</a></li><li><a href="#par5">Conte: "Se ami l'Italia mantieni le distanze"</a></li></ul><h2><a id="par1"></a>Il piano per la fase 2</h2><div>[<a href="#par0">Torna su</a>]</div><p><div class="ampad"><amp-ad width="300" height="250" type="adsense" data-ad-client="ca-pub-7966962822806303" data-ad-slot="5138899317"></amp-ad></div></p><div>Una fase di riapertura a partire dal 4 maggio con un piano ben ristrutturato e anticipato per consentire di "maturarlo" nel migliore dei modi. Una riapertura con molta cautela che significa convivere con il virus e adottare tutte le precauzioni anche i dispositivi di protezione individuale. Sar&#224; Arcuri ad intervenire per calmierare i prezzi delle mascherine, ha detto Conte. E c'&#232; un forte impegno del Governo per far s&#236; che non venga pagata neanche l'Iva. Il prezzo dovrebbe essere intorno alle 0,50 euro per le mascherine chirurgiche. </div><h2><a id="par2"></a>Famiglie, imprese e professionisti</h2><div>[<a href="#par0">Torna su</a>]</div><div>Dovrebbero essere confermate le misure per le famiglie, le imprese e i professionisti, come i bonus su cui il Governo sta lavorando per una riconferma con un semplice click. Tutti provvedimenti che dovrebbero confluire nel "famoso" decreto aprile. </div><h2><a id="par3"></a>Spostamenti verso familiari</h2><div>[<a href="#par0">Torna su</a>]</div><div>Spostamenti mirati per far visita ai congiunti. Visite fatte nel rispetto delle distanze e con l'adozione delle mascherine, con divieto di assembramento. Quindi non &#232; un via libera a "party privati" ha precisato Conte. Spostamenti consentiti all'interno della propria regione e non tra regioni, consentito solo per comprovate esigenze lavorative, di salute. Confermate e anzi pi&#249; stringenti le misure per chi presenta sintomatologia. Consentito l'accesso a parchi e giardini pubblici, sempre con le dovute distanze. </div><div>Difficile abbandonare l'autocertificazione, ha confermato il presidente del Consiglio. Conseguentemente cambier&#224; anche il modulo. </div><p><div class="ampad"><amp-ad width="300" height="250" type="adsense" data-ad-client="ca-pub-7966962822806303" data-ad-slot="5138899317"></amp-ad></div></p><h2><a id="par4"></a>Le tappe delle riaperture</h2><div>[<a href="#par0">Torna su</a>]</div><div>Tornando alle riaperture, dal 4 maggio ripartono manifattura, costruzioni e commercio all'ingrosso. Ok anche ad allenamenti sport individuali e le sezioni di allenamento degli atleti. Sempre dal 4 maggio via libera alla ristorazione ma solo con asporto. Dovranno attendere fino al 18 maggio invece i negozi con la riapertura dei negozi al dettaglio. Stessa data per musei, mostre e biblioteche, mentre dal 15 maggio ripartono i funerali (con massimo 15 congiunti). Rinviata al 1&#176; giugno la riapertura di bar, ristoranti, parrucchieri e centri estetici. Queste grosse modo le tappe delle riaperture. Rimangono chiuse le scuole di ogni ordine e grado fino a settembre. </div><div><h2><a id="par5"></a>Conte: "Se ami l'Italia mantieni le distanze"</h2><div>[<a href="#par0">Torna su</a>]</div><div>Tutti indistintamente dobbiamo gettare le basi per la ripartenza del Paese, rimboccarci le maniche, il Governo far&#224; la sua parte, con una stagione intensa di riforme. Deve essere questa l'occasione per cambiare radicalmente le cose che nel nostro paese non vanno. Noi non ci tireremo indietro. Questo quanto affermato dal premier all'insegna del motto "Se ami l'Italia mantieni le distanze". </div><div><br></div></div><div><a href="http://www.governo.it/it/articolo/conferenza-stampa-del-presidente-conte/14518">Guarda la diretta del premier</a></div> </div>
+<!-- %=pulisci_news(stringa) % -->
+
+<i>Data: 26/04/2020 21:03:00<br>
+Autore:  Redazione</i><BR>
+<br />
+
+<!-- ampad removed and now is in ampad2.asp --> 
+<!-- amp-x-belowpost -->
+<div class="ampad">
+<amp-ad
+     layout="fixed"
+     width="300"
+     height="600"
+     type="adsense"
+     data-ad-client="ca-pub-7966962822806303"
+     data-ad-slot="5138899317">
+</amp-ad>
+</div>
+
+
+<!-- fine notizia singola e tabella *** -->
+      
+
+<!--include file="include/amp-outbrain.asp"-->
+</div> 
+ 
+ <amp-iframe width="1" title="User Sync"
+	height="1"
+	sandbox="allow-scripts"
+	frameborder="0"
+	src="https://acdn.adnxs.com/prebid/amp/user-sync/load-cookie.html">
+	<amp-img layout="fill" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" placeholder></amp-img>
+</amp-iframe>
+
+
+
+<div id="evobrid-container-box" class="evobrid-container">
+  <div>
+    <div class="evobrid-iframe-container">
+      <amp-iframe src="https://assets.evolutionadv.it/studiocataldi_it/amp-brid.html"
+         width="1" height="1"
+         sandbox="allow-scripts allow-same-origin"
+         layout="responsive"
+         frameborder="0"
+         resizable
+         class="video">
+         <amp-img layout="fill" src="https://www.evolutionadv.it/video/amp-placeholder.jpg" placeholder></amp-img>
+         <div overflow></div>
+       </amp-iframe>
+     </div>
+  </div>
+</div>
+
+<div>
+<amp-ad width="100vw" height="320"
+     type="adsense"
+     data-ad-client="ca-pub-7966962822806303"
+     data-ad-slot="5579703275"
+     data-auto-format="mcrspv"
+     data-full-width="">
+  <div overflow=""></div>
+</amp-ad>
+</div>
+<div class="footer">
+</div>
+ 
+  
+</BODY>
+
+</HTML>
